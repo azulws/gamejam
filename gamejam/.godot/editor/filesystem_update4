@@ -1,4 +1,6 @@
 res://escenas/jugador.tscn
+res://codigo/enemy_spawner.gd
+res://escenas/mundo.tscn
 res://codigo/jugador.gd
 res://escenas/mundo.tscn
 res://codigo/enimigo.gd
@@ -24,3 +26,10 @@ res://escenas/timer.tscn
 res://escenas/limiteMapa.tscn
 res://escenas/Player.tscn
 res://escenas/Background_music.tscn
+res://escenas/enemy.tscn
+res://escenas/enemy_straight.tscn
+res://escenas/enemy_zigzag.tscn
+res://escenas/limiteMapa.tscn
+res://escenas/enemy_spawner.tscn
+res://codigo/jugador.gd
+res://escenas/background.tscn

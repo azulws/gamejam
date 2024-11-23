@@ -1,21 +1,44 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1732354079
+::res://::1732355037
 icon.svg::CompressedTexture2D::2317014683230096168::1732329300::1732329807::1::::<><>::
-::res://codigo/::1732353888
-jugador.gd::GDScript::-1::1732353888::0::1::::<>CharacterBody2D<>::
-main.gd::GDScript::-1::1732353577::0::1::::<>Node2D<>::
-menu.gd::GDScript::-1::1732339788::0::1::::<>Control<>::
-pausa.gd::GDScript::-1::1732334797::0::1::::<>Control<>::
-pause.gd::GDScript::-1::1732338355::0::1::::<>Control<>::
-Stopwatch.gd::GDScript::-1::1732353782::0::1::::Stopwatch<>Node<>::
-timer.gd::GDScript::-1::1732352791::0::1::::<>Control<>::
-::res://escenas/::1732353890
-limiteMapa.tscn::PackedScene::3122752873201431773::1732349981::0::1::::<><>::
-Main.tscn::PackedScene::6620415830110314787::1732353890::0::1::::<><>::res://codigo/main.gd<>uid://domoyeie03bdd::::res://escenas/Player.tscn<>uid://bkqxjv25p26tt::::res://escenas/limiteMapa.tscn<>uid://iu2rctpjbsu5::::res://escenas/Stopwatch.tscn<>uid://8am5mw07dpqu::::res://icon.svg<>uid://sr5llx0htuqr::::res://escenas/pause.tscn<>uid://kcxtyqgirktg::::res://escenas/timer.tscn
+::res://assets/::1732355037
+::res://assets/Fondo croto para probar/::1732355037
+edificios 1 ponele.png::CompressedTexture2D::1349723408759900213::1732355037::1732355998::1::::<><>::
+edificios 2 ponele.png::CompressedTexture2D::1559000943174244823::1732355037::1732355998::1::::<><>::
+Fondo base.png::CompressedTexture2D::2374836366244367637::1732355037::1732355998::1::::<><>::
+Nubes crotas.png::CompressedTexture2D::5858885538034666990::1732355037::1732355998::1::::<><>::
+::res://assets/items/::1732355037
+Iman faro.png::CompressedTexture2D::2288663488830451796::1732355037::1732355998::1::::<><>::
+::res://assets/player/::1732355037
+personaje_corre_sheet.png::CompressedTexture2D::4798400640982374472::1732355037::1732355998::1::::<><>::
+::res://codigo/::1732355895
+enemy.gd::GDScript::-1::1732355037::0::1::::<>CharacterBody2D<>::
+enemy_spawner.gd::GDScript::-1::1732355037::0::1::::<>Node<>::
+enemy_straight.gd::GDScript::-1::1732355037::0::1::::<>CharacterBody2D<>::
+enemy_zigzag.gd::GDScript::-1::1732355037::0::1::::<>CharacterBody2D<>::
+jugador.gd::GDScript::-1::1732355895::0::1::::<>CharacterBody2D<>::
+main.gd::GDScript::-1::1732355019::0::1::::<>Node2D<>::
+menu.gd::GDScript::-1::1732355019::0::1::::<>Control<>::
+movement_pattern.gd::GDScript::-1::1732355037::0::1::::<>Node<>::
+movement_pattern_straight.gd::GDScript::-1::1732355037::0::1::::<>Node<>::
+movement_pattern_zigzag.gd::GDScript::-1::1732355037::0::1::::<>Node<>::
+mundo.gd::GDScript::-1::1732355037::0::1::::<>Node2D<>::
+pausa.gd::GDScript::-1::1732355019::0::1::::<>Control<>::
+pause.gd::GDScript::-1::1732355019::0::1::::<>Control<>::
+Stopwatch.gd::GDScript::-1::1732355019::0::1::::Stopwatch<>Node<>::
+timer.gd::GDScript::-1::1732355019::0::1::::<>Control<>::
+::res://escenas/::1732355979
+background.tscn::PackedScene::-1::1732355037::0::1::::<><>::
+enemy_spawner.tscn::PackedScene::-1::1732355037::0::1::::<><>::
+enemy_straight.tscn::PackedScene::-1::1732355037::0::1::::<><>::
+enemy_zigzag.tscn::PackedScene::-1::1732355037::0::1::::<><>::
+limiteMapa.tscn::PackedScene::3122752873201431773::1732355037::0::1::::<><>::
+Main.tscn::PackedScene::6620415830110314787::1732354650::0::1::::<><>::res://codigo/main.gd<>uid://domoyeie03bdd::::res://escenas/Player.tscn<>uid://bkqxjv25p26tt::::res://escenas/limiteMapa.tscn<>uid://iu2rctpjbsu5::::res://escenas/Stopwatch.tscn<>uid://8am5mw07dpqu::::res://icon.svg<>uid://sr5llx0htuqr::::res://escenas/pause.tscn<>uid://kcxtyqgirktg::::res://escenas/timer.tscn<>uid://bpdmka0kw000b::::res://sounds/Peatonal Rush_2.mp3
 Menu.tscn::PackedScene::2808840933407848613::1732349981::0::1::::<><>::res://codigo/menu.gd
-pause.tscn::PackedScene::1300335375252910441::1732349981::0::1::::<><>::res://codigo/pause.gd
-Player.tscn::PackedScene::8167571514681009629::1732349981::0::1::::<><>::uid://8am5mw07dpqu::::res://icon.svg<>res://codigo/jugador.gd
-Stopwatch.tscn::PackedScene::604468156578135750::1732353890::0::1::::<><>::res://codigo/Stopwatch.gd
-timer.tscn::PackedScene::707448898367522812::1732353890::0::1::::<><>::res://codigo/timer.gd
-::res://sounds/::1732354100
-Peatonal Rush_2.mp3::AudioStreamMP3::3446192972482889055::1732354035::1732354102::1::::<><>::
+mundo.tscn::PackedScene::-1::1732355979::0::1::::<><>::
+pause.tscn::PackedScene::1300335375252910441::1732355019::0::1::::<><>::res://codigo/pause.gd
+Player.tscn::PackedScene::8167571514681009629::1732355037::0::1::::<><>::uid://8am5mw07dpqu::::res://icon.svg<>res://codigo/jugador.gd
+Stopwatch.tscn::PackedScene::604468156578135750::1732355019::0::1::::<><>::res://codigo/Stopwatch.gd
+timer.tscn::PackedScene::707448898367522812::1732355019::0::1::::<><>::res://codigo/timer.gd
+::res://sounds/::1732355019
+Peatonal Rush_2.mp3::AudioStreamMP3::3446192972482889055::1732355019::1732355998::1::::<><>::
