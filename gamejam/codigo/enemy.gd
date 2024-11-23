@@ -1,14 +1,17 @@
 extends CharacterBody2D
 
 const SPEED = 150
-var chocando = false
+var is_colliding = false
+
+func _movement_pattern(delta: float) -> void:
+	pass
 
 func _process(delta: float) -> void:
-	if !chocando:
-		position.x += SPEED * delta
+	if !is_colliding:
+		_movement_pattern(delta)
 
 func _on_area_2d_body_entered(body: Node2D) -> void:
-	chocando = true
+	is_colliding = true
 
 func _on_area_2d_body_exited(body: Node2D) -> void:
-	chocando = false
+	is_colliding = false

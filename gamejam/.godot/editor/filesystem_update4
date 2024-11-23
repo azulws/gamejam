@@ -1,5 +1,8 @@
+res://escenas/enemy.tscn
+res://escenas/enemy_zigzag.tscn
+res://codigo/enemy_zigzag.gd
 res://escenas/mundo.tscn
-res://codigo/jugador.gd
 res://escenas/jugador.tscn
-res://escenas/enemigo.tscn
-res://codigo/enemigo.gd
+res://escenas/enemy_straight.tscn
+res://escenas/limiteMapa.tscn
+res://codigo/enemy.gd

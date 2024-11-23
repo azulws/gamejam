@@ -3,6 +3,7 @@
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_mbfav"]
 
 [node name="StaticBody2D" type="StaticBody2D"]
+collision_mask = 3
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 rotation = 3.14159

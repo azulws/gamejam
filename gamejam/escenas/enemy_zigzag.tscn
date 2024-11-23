@@ -1,16 +1,17 @@
-[gd_scene load_steps=4 format=3 uid="uid://dc5pbqkc27vd6"]
+[gd_scene load_steps=4 format=3 uid="uid://6d58hicp6w8x"]
 
-[ext_resource type="Script" path="res://codigo/enemigo.gd" id="1_0ervt"]
-[ext_resource type="Texture2D" uid="uid://8am5mw07dpqu" path="res://icon.svg" id="1_h7mwc"]
+[ext_resource type="Script" path="res://codigo/enemy_zigzag.gd" id="1_m81rv"]
+[ext_resource type="Texture2D" uid="uid://8am5mw07dpqu" path="res://icon.svg" id="2_1e3f0"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_c2oow"]
 size = Vector2(123.5, 122)
 
-[node name="Enemigo" type="CharacterBody2D"]
-script = ExtResource("1_0ervt")
+[node name="Enemy_zigzag" type="CharacterBody2D"]
+motion_mode = 1
+script = ExtResource("1_m81rv")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("1_h7mwc")
+texture = ExtResource("2_1e3f0")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-0.75, 0)
