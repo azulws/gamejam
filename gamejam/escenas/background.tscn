@@ -117,7 +117,7 @@ texture = ExtResource("11_n7nnp")
 
 [node name="5" type="Parallax2D" parent="Sunset"]
 repeat_size = Vector2(320, 0)
-autoscroll = Vector2(20, 0)
+autoscroll = Vector2(5, 0)
 repeat_times = 4
 
 [node name="Sprite5" type="Sprite2D" parent="Sunset/5"]
@@ -125,14 +125,15 @@ texture = ExtResource("12_i5vkm")
 
 [node name="6" type="Parallax2D" parent="Sunset"]
 repeat_size = Vector2(320, 0)
-autoscroll = Vector2(5, 0)
 repeat_times = 4
 
 [node name="Sprite6" type="Sprite2D" parent="Sunset/6"]
 texture = ExtResource("13_o4pdw")
 
 [node name="7" type="Parallax2D" parent="Sunset"]
+scroll_offset = Vector2(0, 5)
 repeat_size = Vector2(320, 0)
+autoscroll = Vector2(40, 0)
 repeat_times = 4
 
 [node name="Sprite7" type="Sprite2D" parent="Sunset/7"]
@@ -167,7 +168,7 @@ texture = ExtResource("17_idthr")
 
 [node name="4" type="Parallax2D" parent="Night"]
 repeat_size = Vector2(320, 0)
-autoscroll = Vector2(40, 0)
+autoscroll = Vector2(5, 0)
 repeat_times = 4
 
 [node name="Sprite4" type="Sprite2D" parent="Night/4"]
@@ -175,7 +176,6 @@ texture = ExtResource("18_o0jkp")
 
 [node name="5" type="Parallax2D" parent="Night"]
 repeat_size = Vector2(320, 0)
-autoscroll = Vector2(20, 0)
 repeat_times = 4
 
 [node name="Sprite5" type="Sprite2D" parent="Night/5"]
@@ -183,7 +183,7 @@ texture = ExtResource("19_pxqgm")
 
 [node name="6" type="Parallax2D" parent="Night"]
 repeat_size = Vector2(320, 0)
-autoscroll = Vector2(5, 0)
+autoscroll = Vector2(40, 0)
 repeat_times = 4
 
 [node name="Sprite6" type="Sprite2D" parent="Night/6"]

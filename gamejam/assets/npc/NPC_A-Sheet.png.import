@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://camm7s4whs0c7"
-path="res://.godot/imported/personaje_corre_sheet.png-cd1a6cea5ab575b0cc3c59b75dea1700.ctex"
+uid="uid://871tnlncagji"
+path="res://.godot/imported/NPC_A-Sheet.png-cb34c8a0e604f86d8dffef61787e53c9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/player/personaje_corre_sheet.png"
-dest_files=["res://.godot/imported/personaje_corre_sheet.png-cd1a6cea5ab575b0cc3c59b75dea1700.ctex"]
+source_file="res://assets/npc/NPC_A-Sheet.png"
+dest_files=["res://.godot/imported/NPC_A-Sheet.png-cb34c8a0e604f86d8dffef61787e53c9.ctex"]
 
 [params]
 

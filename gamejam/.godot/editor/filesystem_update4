@@ -1,3 +1,9 @@
-res://escenas/background.tscn
-res://escenas/Menu.tscn
+res://escenas/Player.tscn
 res://escenas/Main.tscn
+res://escenas/Menu.tscn
+res://codigo/player.gd
+res://escenas/background.tscn
+res://escenas/timer.tscn
+res://escenas/enemy.tscn
+res://escenas/enemy_spawner.tscn
+res://codigo/enemy.gd

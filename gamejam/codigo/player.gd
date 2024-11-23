@@ -19,18 +19,45 @@ func _process(delta: float) -> void:
 		direction = Vector2.ZERO
 	
 		# Detecta las entradas del jugador
+		var moving_horizontally = false
+		var moving_vertically = false
+
 		if Input.is_action_pressed("up"):
 			direction.y -= 1
+			moving_vertically = true
 		if Input.is_action_pressed("down"):
 			direction.y += 1
+			moving_vertically = true
 		if Input.is_action_pressed("left"):
 			direction.x -= 1
+			moving_horizontally = true
 			animated_sprite.flip_h = false
-			animated_sprite.play("run")
 		if Input.is_action_pressed("right"):
 			direction.x += 1
+			moving_horizontally = true
 			animated_sprite.flip_h = true
+
+		# Reproduce la animación adecuada
+		if moving_horizontally and moving_vertically:
+			if direction.x > 0 and direction.y > 0:
+				animated_sprite.flip_h = true
+				animated_sprite.play("run_diagonal_frente")
+			elif direction.x > 0 and direction.y < 0:
+				animated_sprite.flip_h = false
+				animated_sprite.play("run_diagonal_espalda")
+			elif direction.x < 0 and direction.y > 0:
+				animated_sprite.flip_h = false
+				animated_sprite.play("run_diagonal_frente")
+			elif direction.x < 0 and direction.y < 0:
+				animated_sprite.flip_h = true
+				animated_sprite.play("run_diagonal_espalda")
+		elif moving_horizontally:
 			animated_sprite.play("run")
+		elif moving_vertically:
+			if direction.y < 0:
+				animated_sprite.play("run_espalda")
+			else:
+				animated_sprite.play("run_frente")
 			
 	if direction != Vector2.ZERO:
 		pasos.set_stream_paused(false)

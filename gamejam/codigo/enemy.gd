@@ -72,14 +72,15 @@ func _pingpong(delta: float) -> void:
 		direction.y = 1
 		
 	if colliding <= 0:
-		if position.y < 20 or position.y > 500:
+		if position.y < 20 or position.y > 150:
 			direction.y *= -1
 		velocity = direction.normalized() * SPEED
 	else: 
 		colliding = 0
 		direction.y *= -1
 		velocity = direction.normalized() * SPEED
-	move_and_slide()
+	move_and_collide(velocity*delta)
+	
 
 func _get_value(values: Array) -> Variant:
 	if values.size() > 0:
