@@ -1,4 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
+<<<<<<< Updated upstream
 ::res://::1732329807
 icon.svg::CompressedTexture2D::2317014683230096168::1732329300::1732329807::1::::<><>::
 ::res://codigo/::1732329691
@@ -7,3 +8,52 @@ jugador.gd::GDScript::-1::1732329691::0::1::::<>CharacterBody2D<>::
 jugador.tscn::PackedScene::8167571514681009629::1732329300::0::1::::<><>::uid://8am5mw07dpqu::::res://icon.svg<>res://codigo/jugador.gd
 limiteMapa.tscn::PackedScene::3122752873201431773::1732329300::0::1::::<><>::
 mundo.tscn::PackedScene::6620415830110314787::1732329300::0::1::::<><>::uid://domoyeie03bdd::::res://escenas/jugador.tscn<>uid://bkqxjv25p26tt::::res://escenas/limiteMapa.tscn<>uid://8am5mw07dpqu::::res://icon.svg
+=======
+::res://::1732390895
+default_bus_layout.tres::AudioBusLayout::961240024005168275::1732389216::0::1::::<><>::
+floor.tres::TileSet::340464553002496770::1732390709::0::1::::<><>::uid://dv8b25i32vxbd::::res://assets/map/Piso-base-peatonal.png
+icon.svg::CompressedTexture2D::2317014683230096168::1732329300::1732390896::1::::<><>::
+::res://assets/::1732390709
+Piso-arriba-peatonal.png::CompressedTexture2D::990728303327239643::1732390709::1732390896::1::::<><>::
+Piso-base-peatonal.png::CompressedTexture2D::1166960995089887944::1732390709::1732390896::1::::<><>::
+::res://assets/backgrounds/::1732390180
+Fondo-base-cielo-atardecer.png::CompressedTexture2D::8352380597924154907::1732389216::1732390896::1::::<><>::
+Fondo-base-cielo-dia.png::CompressedTexture2D::835324048843914779::1732389216::1732390896::1::::<><>::
+::res://assets/items/::1732390180
+Iman faro.png::CompressedTexture2D::2288663488830451796::1732355037::1732390896::1::::<><>::
+Palomota.png::CompressedTexture2D::8314598411664960137::1732373877::1732390896::1::::<><>::
+::res://assets/map/::1732390709
+floor.png::CompressedTexture2D::4892325511294695608::1732390709::1732390896::1::::<><>::
+Piso-arriba-peatonal.png::CompressedTexture2D::3777707778688577632::1732390709::1732390896::1::::<><>::
+Piso-base-peatonal.png::CompressedTexture2D::8701462756158219097::1732390709::1732390896::1::::<><>::
+::res://assets/player/::1732390180
+personaje_corre_sheet.png::CompressedTexture2D::4798400640982374472::1732355037::1732390896::1::::<><>::
+::res://assets/ui/::1732390709
+luna_v2.png::CompressedTexture2D::3065953006872472611::1732390709::1732390896::1::::<><>::
+Sol.png::CompressedTexture2D::3454991164229126010::1732390709::1732390896::1::::<><>::
+::res://codigo/::1732390709
+enemy.gd::GDScript::-1::1732390489::0::1::::<>CharacterBody2D<>::
+enemy_spawner.gd::GDScript::-1::1732390709::0::1::::<>Marker2D<>::
+main.gd::GDScript::-1::1732390709::0::1::::<>Node2D<>::
+menu.gd::GDScript::-1::1732390489::0::1::::<>Control<>::
+pausa.gd::GDScript::-1::1732373877::0::1::::<>Control<>::
+pause.gd::GDScript::-1::1732390709::0::1::::<>Control<>::
+player.gd::GDScript::-1::1732390489::0::1::::<>CharacterBody2D<>::
+Stopwatch.gd::GDScript::-1::1732390709::0::1::::<>Node<>::
+timer.gd::GDScript::-1::1732390709::0::1::::<>Control<>::
+::res://escenas/::1732390709
+background.tscn::PackedScene::4937328910381039296::1732389216::0::1::::<><>::uid://dq87qukicd5df::::res://assets/backgrounds/Fondo-base-cielo-atardecer.png
+enemy.tscn::PackedScene::7294743713184469559::1732388890::0::1::::<><>::res://codigo/enemy.gd
+enemy_spawner.tscn::PackedScene::526142021391601577::1732388890::0::1::::<><>::res://codigo/enemy_spawner.gd
+limiteMapa.tscn::PackedScene::3122752873201431773::1732355037::0::1::::<><>::
+Main.tscn::PackedScene::-1::1732390709::0::1::::<><>::
+Menu.tscn::PackedScene::2808840933407848613::1732389667::0::1::::<><>::res://codigo/menu.gd
+mundo.tscn::PackedScene::-1::1732373877::0::1::::<><>::
+pause.tscn::PackedScene::1300335375252910441::1732390709::0::1::::<><>::res://codigo/pause.gd
+Player.tscn::PackedScene::8167571514681009629::1732389216::0::1::::<><>::res://codigo/player.gd<>uid://camm7s4whs0c7::::res://assets/player/personaje_corre_sheet.png<>uid://uotgldmx6k8c::::res://sounds/pasos.mp3<>uid://bpdmka0kw000b::::res://sounds/Peatonal Rush_2.mp3
+Stopwatch.tscn::PackedScene::604468156578135750::1732388890::0::1::::<><>::res://codigo/Stopwatch.gd
+timer.tscn::PackedScene::707448898367522812::1732390709::0::1::::<><>::res://codigo/timer.gd<>uid://bjxf2et2rhgbb::::res://assets/ui/luna_v2.png<>uid://iu2rctpjbsu5::::res://escenas/Stopwatch.tscn<>uid://bphvg131yovss::::res://assets/ui/Sol.png
+::res://sounds/::1732390180
+pasos.mp3::AudioStreamMP3::1433843081911933492::1732389216::1732390896::1::::<><>::
+Peatonal Rush_2.mp3::AudioStreamMP3::3446192972482889055::1732373877::1732390896::1::::<><>::
+>>>>>>> Stashed changes

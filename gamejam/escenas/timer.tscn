@@ -1,0 +1,40 @@
+[gd_scene load_steps=6 format=3 uid="uid://kcxtyqgirktg"]
+
+[ext_resource type="Script" path="res://codigo/timer.gd" id="1_51nrt"]
+[ext_resource type="Texture2D" uid="uid://bjxf2et2rhgbb" path="res://assets/ui/luna_v2.png" id="2_0vqwp"]
+[ext_resource type="PackedScene" uid="uid://iu2rctpjbsu5" path="res://escenas/Stopwatch.tscn" id="2_7egsr"]
+[ext_resource type="Texture2D" uid="uid://bphvg131yovss" path="res://assets/ui/Sol.png" id="4_gag0g"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_x4nke"]
+
+[node name="Timer" type="Control" node_paths=PackedStringArray("StopwatchLabel")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_51nrt")
+StopwatchLabel = NodePath("StopwatchLabel")
+
+[node name="Rounded" type="TextureProgressBar" parent="."]
+layout_mode = 0
+offset_left = 122.0
+offset_right = 250.0
+offset_bottom = 128.0
+scale = Vector2(0.64, 0.64)
+rounded = true
+fill_mode = 5
+texture_under = ExtResource("2_0vqwp")
+texture_progress = ExtResource("4_gag0g")
+
+[node name="StopwatchLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 133.0
+offset_top = 19.0
+offset_right = 242.0
+offset_bottom = 42.0
+text = "00:00"
+label_settings = SubResource("LabelSettings_x4nke")
+
+[node name="Stopwatch" parent="." instance=ExtResource("2_7egsr")]

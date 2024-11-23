@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="089a394e-81c9-4dd6-a605-0b2cbb46cb68" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/gamejam/assets/Piso-arriba-peatonal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamejam/assets/Piso-arriba-peatonal.png.import" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamejam/assets/Piso-base-peatonal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamejam/assets/Piso-base-peatonal.png.import" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamejam/assets/map/Piso-arriba-peatonal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamejam/assets/map/Piso-arriba-peatonal.png.import" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamejam/assets/map/Piso-base-peatonal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamejam/assets/map/Piso-base-peatonal.png.import" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamejam/assets/map/floor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamejam/assets/map/floor.png.import" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamejam/assets/ui/Sol.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamejam/assets/ui/Sol.png.import" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamejam/assets/ui/luna_v2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamejam/assets/ui/luna_v2.png.import" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamejam/escenas/MaiAB87.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamejam/escenas/tim9A0B.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamejam/escenas/timC243.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamejam/escenas/timDF2A.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamejam/floor.tres" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamejam/.godot/editor/Main.tscn-editstate-1961b60e3755fb7ec9ce774221e955b2.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/gamejam/.godot/editor/Main.tscn-editstate-1961b60e3755fb7ec9ce774221e955b2.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamejam/.godot/editor/Main.tscn-folding-1961b60e3755fb7ec9ce774221e955b2.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/gamejam/.godot/editor/Main.tscn-folding-1961b60e3755fb7ec9ce774221e955b2.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamejam/.godot/editor/Menu.tscn-editstate-897a1518a2aca9cd83fdd819d3522772.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/gamejam/.godot/editor/Menu.tscn-editstate-897a1518a2aca9cd83fdd819d3522772.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamejam/.godot/editor/Player.tscn-editstate-49bf1799fc3244da1519d722659f5e21.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/gamejam/.godot/editor/Player.tscn-editstate-49bf1799fc3244da1519d722659f5e21.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamejam/.godot/editor/Stopwatch.tscn-editstate-9cb651c8c8e2fdb83b8d0b9577ce4130.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/gamejam/.godot/editor/Stopwatch.tscn-editstate-9cb651c8c8e2fdb83b8d0b9577ce4130.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamejam/.godot/editor/create_recent.Node" beforeDir="false" afterPath="$PROJECT_DIR$/gamejam/.godot/editor/create_recent.Node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamejam/.godot/editor/editor_layout.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/gamejam/.godot/editor/editor_layout.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamejam/.godot/editor/filesystem_cache8" beforeDir="false" afterPath="$PROJECT_DIR$/gamejam/.godot/editor/filesystem_cache8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamejam/.godot/editor/filesystem_update4" beforeDir="false" afterPath="$PROJECT_DIR$/gamejam/.godot/editor/filesystem_update4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamejam/.godot/editor/pause.tscn-editstate-ab576a0ee33d71496ab8fded3da80cf1.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/gamejam/.godot/editor/pause.tscn-editstate-ab576a0ee33d71496ab8fded3da80cf1.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamejam/.godot/editor/project_metadata.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/gamejam/.godot/editor/project_metadata.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamejam/.godot/editor/recent_dirs" beforeDir="false" afterPath="$PROJECT_DIR$/gamejam/.godot/editor/recent_dirs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamejam/.godot/editor/script_editor_cache.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/gamejam/.godot/editor/script_editor_cache.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamejam/.godot/editor/timer.tscn-editstate-e6de000a97d0f6dd362112c5dc86fbaa.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/gamejam/.godot/editor/timer.tscn-editstate-e6de000a97d0f6dd362112c5dc86fbaa.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamejam/.godot/editor/timer.tscn-folding-e6de000a97d0f6dd362112c5dc86fbaa.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/gamejam/.godot/editor/timer.tscn-folding-e6de000a97d0f6dd362112c5dc86fbaa.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamejam/.godot/global_script_class_cache.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/gamejam/.godot/global_script_class_cache.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamejam/.godot/imported/Peatonal Rush_2.mp3-7db30373434d3f085a861680a53087cf.md5" beforeDir="false" afterPath="$PROJECT_DIR$/gamejam/.godot/imported/Peatonal Rush_2.mp3-7db30373434d3f085a861680a53087cf.md5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamejam/.godot/imported/Peatonal Rush_2.mp3-7db30373434d3f085a861680a53087cf.mp3str" beforeDir="false" afterPath="$PROJECT_DIR$/gamejam/.godot/imported/Peatonal Rush_2.mp3-7db30373434d3f085a861680a53087cf.mp3str" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamejam/.godot/uid_cache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/gamejam/.godot/uid_cache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamejam/codigo/Stopwatch.gd" beforeDir="false" afterPath="$PROJECT_DIR$/gamejam/codigo/Stopwatch.gd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamejam/codigo/enemy_spawner.gd" beforeDir="false" afterPath="$PROJECT_DIR$/gamejam/codigo/enemy_spawner.gd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamejam/codigo/main.gd" beforeDir="false" afterPath="$PROJECT_DIR$/gamejam/codigo/main.gd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamejam/codigo/pause.gd" beforeDir="false" afterPath="$PROJECT_DIR$/gamejam/codigo/pause.gd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamejam/codigo/timer.gd" beforeDir="false" afterPath="$PROJECT_DIR$/gamejam/codigo/timer.gd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamejam/escenas/Main.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/gamejam/escenas/Main.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamejam/escenas/pause.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/gamejam/escenas/pause.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamejam/escenas/timer.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/gamejam/escenas/timer.tscn" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\wamp64\bin\php\php8.1.0\php.exe" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2pGPJPfoYffxF9Ku9qmZRaxc0cY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "player-speed",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="089a394e-81c9-4dd6-a605-0b2cbb46cb68" name="Changes" comment="" />
+      <created>1732389372113</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732389372113</updated>
+      <workItem from="1732389382143" duration="124000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
