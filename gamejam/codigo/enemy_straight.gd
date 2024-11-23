@@ -1,4 +1,5 @@
 extends "res://codigo/enemy.gd"
 
-func _movement_pattern(delta: float) -> void:
-	position.x += SPEED * delta
+func _process(delta: float) -> void:
+	if !colliding:
+		position.x += SPEED * delta

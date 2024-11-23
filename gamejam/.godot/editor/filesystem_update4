@@ -1,6 +1,9 @@
 res://escenas/Stopwatch.tscn
+res://codigo/enemy_zigzag.gd
 res://escenas/timer.tscn
 res://escenas/Main.tscn
-res://codigo/jugador.gd
 res://escenas/background.tscn
 res://escenas/Player.tscn
+res://escenas/enemy_zigzag.tscn
+res://escenas/enemy_straight.tscn
+res://escenas/enemy_spawner.tscn

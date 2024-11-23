@@ -9,7 +9,7 @@ func _ready() -> void:
 	randomize()
 
 func _on_timer_timeout() -> void:
-	spawn_enemy(Vector2.ZERO)
+	spawn_enemy(self.global_position)
 
 func spawn_enemy(position: Vector2) -> void:
 	var enemy_scene = ENEMY_TYPES[randi() % (ENEMY_TYPES.size())]

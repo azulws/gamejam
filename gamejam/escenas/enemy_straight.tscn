@@ -21,7 +21,6 @@ position = Vector2(0, 7)
 shape = SubResource("CapsuleShape2D_fl0a0")
 
 [node name="Area2D" type="Area2D" parent="."]
-collision_mask = 3
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D"]
 position = Vector2(29, 20)

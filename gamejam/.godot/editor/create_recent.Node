@@ -1,3 +1,5 @@
+RayCast2D
+Marker2D
 AudioStreamPlayer2D
 Sprite2D
 Parallax2D
@@ -11,6 +13,3 @@ Button
 VBoxContainer
 BoxContainer
 MarginContainer
-CollisionPolygon2D
-Area2D
-CollisionShape2D

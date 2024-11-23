@@ -17,7 +17,7 @@ script = ExtResource("1_hpid1")
 position = Vector2(616, -88)
 
 [node name="Jugador" parent="." instance=ExtResource("2_w732k")]
-position = Vector2(577, 324)
+position = Vector2(511, 52)
 motion_mode = 1
 
 [node name="pause" parent="Jugador" instance=ExtResource("6_lkh8n")]
@@ -50,3 +50,4 @@ rotation = 3.14159
 [node name="limite superior" parent="limites mapa" instance=ExtResource("3_0mqo2")]
 
 [node name="Enemy_spawner" parent="." instance=ExtResource("9_wevju")]
+position = Vector2(216, 16)
