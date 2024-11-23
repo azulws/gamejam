@@ -1,12 +1,190 @@
-[gd_scene load_steps=2 format=3 uid="uid://cclxc6glhvwsm"]
+[gd_scene load_steps=21 format=3 uid="uid://cclxc6glhvwsm"]
 
-[ext_resource type="Texture2D" uid="uid://dq87qukicd5df" path="res://assets/backgrounds/Fondo-base-cielo-atardecer.png" id="1_ucldc"]
+[ext_resource type="Texture2D" uid="uid://bb02e7x3r4mxc" path="res://assets/backgrounds/Day/fondo-base-cielo-dia.png" id="1_wot77"]
+[ext_resource type="Texture2D" uid="uid://b842jnljtb2oh" path="res://assets/backgrounds/Day/fondo-base-dia-cielo-capa1.png" id="2_lg6rj"]
+[ext_resource type="Texture2D" uid="uid://ogg2dn5nnh14" path="res://assets/backgrounds/Day/fondo-base-dia-cielo-capa2.png" id="3_cx3py"]
+[ext_resource type="Texture2D" uid="uid://dh166ehahsctk" path="res://assets/backgrounds/Day/fondo-base-dia-cielo-capa3.png" id="4_g84qe"]
+[ext_resource type="Texture2D" uid="uid://cseqsptrqwspg" path="res://assets/backgrounds/Day/fondo-base-dia-cielo-capa4.png" id="5_8o5vl"]
+[ext_resource type="Texture2D" uid="uid://ditcmsytqfgla" path="res://assets/backgrounds/Day/fondo-base-dia-edificios1.png" id="6_prcor"]
+[ext_resource type="Texture2D" uid="uid://cmhswm3xl3v8i" path="res://assets/backgrounds/Day/fondo-base-dia-edificios2.png" id="7_8oesq"]
+[ext_resource type="Texture2D" uid="uid://do2xvckryqgbp" path="res://assets/backgrounds/Sunset/Fondo-base-cielo-atardecer-capa1.png" id="8_qwu2n"]
+[ext_resource type="Texture2D" uid="uid://8ruxufxjk2kd" path="res://assets/backgrounds/Sunset/Fondo-base-cielo-atardecer-capa2.png" id="9_uec4d"]
+[ext_resource type="Texture2D" uid="uid://c2kl5lsa2vwyk" path="res://assets/backgrounds/Sunset/Fondo-base-cielo-atardecer-capa3.png" id="10_at4v8"]
+[ext_resource type="Texture2D" uid="uid://bo0xuatjhheth" path="res://assets/backgrounds/Sunset/Fondo-base-cielo-atardecer-capa4.png" id="11_n7nnp"]
+[ext_resource type="Texture2D" uid="uid://bwnjo576h53dj" path="res://assets/backgrounds/Sunset/Fondo-base-cielo-atardecer-edificios1.png" id="12_i5vkm"]
+[ext_resource type="Texture2D" uid="uid://ctuvbpfxn36ue" path="res://assets/backgrounds/Sunset/Fondo-base-cielo-atardecer-edificios2.png" id="13_o4pdw"]
+[ext_resource type="Texture2D" uid="uid://cddkdfk2w801n" path="res://assets/backgrounds/Sunset/Fondo-base-cielo-atardecer-nubes.png" id="14_t1fvf"]
+[ext_resource type="Texture2D" uid="uid://qst38syq5rnp" path="res://assets/backgrounds/Night/Fondo-base-cielo-noche-capa1.png" id="15_dlodt"]
+[ext_resource type="Texture2D" uid="uid://veha1crcsdno" path="res://assets/backgrounds/Night/Fondo-base-cielo-noche-capa2.png" id="16_ris6y"]
+[ext_resource type="Texture2D" uid="uid://c2a485nb853u" path="res://assets/backgrounds/Night/Fondo-base-cielo-noche-capa3.png" id="17_idthr"]
+[ext_resource type="Texture2D" uid="uid://d1uqwisi8dlo1" path="res://assets/backgrounds/Night/Fondo-base-cielo-noche-edificios1.png" id="18_o0jkp"]
+[ext_resource type="Texture2D" uid="uid://dl4ilsh1m5qhs" path="res://assets/backgrounds/Night/Fondo-base-cielo-noche-edificios2.png" id="19_pxqgm"]
+[ext_resource type="Texture2D" uid="uid://ckbdgxfhsnvmy" path="res://assets/backgrounds/Night/Fondo-base-cielo-noche-nubes.png" id="20_12yln"]
 
 [node name="Background" type="Node2D"]
 
-[node name="Parallax2D" type="Parallax2D" parent="."]
+[node name="Day" type="Node2D" parent="."]
+
+[node name="1" type="Parallax2D" parent="Day"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(100, 0)
+repeat_times = 4
+
+[node name="Sprite1" type="Sprite2D" parent="Day/1"]
+texture = ExtResource("1_wot77")
+
+[node name="2" type="Parallax2D" parent="Day"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(80, 0)
+repeat_times = 4
+
+[node name="Sprite2" type="Sprite2D" parent="Day/2"]
+texture = ExtResource("2_lg6rj")
+
+[node name="3" type="Parallax2D" parent="Day"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(60, 0)
+repeat_times = 4
+
+[node name="Sprite3" type="Sprite2D" parent="Day/3"]
+texture = ExtResource("3_cx3py")
+
+[node name="4" type="Parallax2D" parent="Day"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(40, 0)
+repeat_times = 4
+
+[node name="Sprite4" type="Sprite2D" parent="Day/4"]
+texture = ExtResource("4_g84qe")
+
+[node name="5" type="Parallax2D" parent="Day"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(20, 0)
+repeat_times = 4
+
+[node name="Sprite5" type="Sprite2D" parent="Day/5"]
+texture = ExtResource("5_8o5vl")
+
+[node name="6" type="Parallax2D" parent="Day"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(5, 0)
+repeat_times = 4
+
+[node name="Sprite6" type="Sprite2D" parent="Day/6"]
+texture = ExtResource("6_prcor")
+
+[node name="7" type="Parallax2D" parent="Day"]
 repeat_size = Vector2(320, 0)
 repeat_times = 4
 
-[node name="Sprite2D" type="Sprite2D" parent="Parallax2D"]
-texture = ExtResource("1_ucldc")
+[node name="Sprite7" type="Sprite2D" parent="Day/7"]
+texture = ExtResource("7_8oesq")
+
+[node name="Sunset" type="Node2D" parent="."]
+modulate = Color(1, 1, 1, 0)
+
+[node name="1" type="Parallax2D" parent="Sunset"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(100, 0)
+repeat_times = 4
+
+[node name="Sprite1" type="Sprite2D" parent="Sunset/1"]
+texture = ExtResource("8_qwu2n")
+
+[node name="2" type="Parallax2D" parent="Sunset"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(80, 0)
+repeat_times = 4
+
+[node name="Sprite2" type="Sprite2D" parent="Sunset/2"]
+texture = ExtResource("9_uec4d")
+
+[node name="3" type="Parallax2D" parent="Sunset"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(60, 0)
+repeat_times = 4
+
+[node name="Sprite3" type="Sprite2D" parent="Sunset/3"]
+texture = ExtResource("10_at4v8")
+
+[node name="4" type="Parallax2D" parent="Sunset"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(40, 0)
+repeat_times = 4
+
+[node name="Sprite4" type="Sprite2D" parent="Sunset/4"]
+texture = ExtResource("11_n7nnp")
+
+[node name="5" type="Parallax2D" parent="Sunset"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(20, 0)
+repeat_times = 4
+
+[node name="Sprite5" type="Sprite2D" parent="Sunset/5"]
+texture = ExtResource("12_i5vkm")
+
+[node name="6" type="Parallax2D" parent="Sunset"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(5, 0)
+repeat_times = 4
+
+[node name="Sprite6" type="Sprite2D" parent="Sunset/6"]
+texture = ExtResource("13_o4pdw")
+
+[node name="7" type="Parallax2D" parent="Sunset"]
+repeat_size = Vector2(320, 0)
+repeat_times = 4
+
+[node name="Sprite7" type="Sprite2D" parent="Sunset/7"]
+texture = ExtResource("14_t1fvf")
+
+[node name="Night" type="Node2D" parent="."]
+modulate = Color(1, 1, 1, 0)
+
+[node name="1" type="Parallax2D" parent="Night"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(100, 0)
+repeat_times = 4
+
+[node name="Sprite1" type="Sprite2D" parent="Night/1"]
+texture = ExtResource("15_dlodt")
+
+[node name="2" type="Parallax2D" parent="Night"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(80, 0)
+repeat_times = 4
+
+[node name="Sprite2" type="Sprite2D" parent="Night/2"]
+texture = ExtResource("16_ris6y")
+
+[node name="3" type="Parallax2D" parent="Night"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(60, 0)
+repeat_times = 4
+
+[node name="Sprite3" type="Sprite2D" parent="Night/3"]
+texture = ExtResource("17_idthr")
+
+[node name="4" type="Parallax2D" parent="Night"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(40, 0)
+repeat_times = 4
+
+[node name="Sprite4" type="Sprite2D" parent="Night/4"]
+texture = ExtResource("18_o0jkp")
+
+[node name="5" type="Parallax2D" parent="Night"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(20, 0)
+repeat_times = 4
+
+[node name="Sprite5" type="Sprite2D" parent="Night/5"]
+texture = ExtResource("19_pxqgm")
+
+[node name="6" type="Parallax2D" parent="Night"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(5, 0)
+repeat_times = 4
+
+[node name="Sprite6" type="Sprite2D" parent="Night/6"]
+texture = ExtResource("20_12yln")
