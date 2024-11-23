@@ -1,12 +1,13 @@
-[gd_scene load_steps=6 format=3 uid="uid://c1k8jtm1tfs7d"]
+[gd_scene load_steps=5 format=3 uid="uid://c1k8jtm1tfs7d"]
 
+[ext_resource type="PackedScene" uid="uid://hq4qnpivn7fh" path="res://escenas/enemy_spawner.tscn" id="1_0t6jh"]
 [ext_resource type="PackedScene" uid="uid://domoyeie03bdd" path="res://escenas/jugador.tscn" id="1_uceuo"]
 [ext_resource type="PackedScene" uid="uid://bkqxjv25p26tt" path="res://escenas/limiteMapa.tscn" id="2_kmei0"]
 [ext_resource type="Texture2D" uid="uid://8am5mw07dpqu" path="res://icon.svg" id="3_p2i8y"]
-[ext_resource type="PackedScene" uid="uid://bgdb4ijvehy5f" path="res://escenas/enemy_straight.tscn" id="4_5edpd"]
-[ext_resource type="PackedScene" uid="uid://6d58hicp6w8x" path="res://escenas/enemy_zigzag.tscn" id="5_v66hc"]
 
 [node name="mundo" type="Node2D"]
+
+[node name="Enemy_spawner" parent="." instance=ExtResource("1_0t6jh")]
 
 [node name="Limites" type="Node" parent="."]
 
@@ -30,9 +31,3 @@ texture = ExtResource("3_p2i8y")
 [node name="Jugador" parent="." instance=ExtResource("1_uceuo")]
 position = Vector2(944, 199)
 motion_mode = 1
-
-[node name="Enemy_straight" parent="." instance=ExtResource("4_5edpd")]
-position = Vector2(440, 133)
-
-[node name="Enemy_zigzag" parent="." instance=ExtResource("5_v66hc")]
-position = Vector2(408, 312)
