@@ -1,5 +1,6 @@
-[gd_scene load_steps=5 format=3 uid="uid://c1k8jtm1tfs7d"]
+[gd_scene load_steps=6 format=3 uid="uid://c1k8jtm1tfs7d"]
 
+[ext_resource type="PackedScene" uid="uid://cclxc6glhvwsm" path="res://escenas/background.tscn" id="1_0kfdb"]
 [ext_resource type="PackedScene" uid="uid://hq4qnpivn7fh" path="res://escenas/enemy_spawner.tscn" id="1_0t6jh"]
 [ext_resource type="PackedScene" uid="uid://domoyeie03bdd" path="res://escenas/jugador.tscn" id="1_uceuo"]
 [ext_resource type="PackedScene" uid="uid://bkqxjv25p26tt" path="res://escenas/limiteMapa.tscn" id="2_kmei0"]
@@ -7,7 +8,8 @@
 
 [node name="mundo" type="Node2D"]
 
-[node name="Enemy_spawner" parent="." instance=ExtResource("1_0t6jh")]
+[node name="Background" parent="." instance=ExtResource("1_0kfdb")]
+position = Vector2(300, -443)
 
 [node name="Limites" type="Node" parent="."]
 
@@ -32,3 +34,5 @@ texture = ExtResource("3_p2i8y")
 [node name="Jugador" parent="." instance=ExtResource("1_uceuo")]
 position = Vector2(138, -5)
 motion_mode = 1
+
+[node name="Enemy_spawner" parent="." instance=ExtResource("1_0t6jh")]

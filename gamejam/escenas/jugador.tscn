@@ -99,7 +99,7 @@ script = ExtResource("1_avd3n")
 sprite_frames = SubResource("SpriteFrames_mwp2c")
 animation = &"idle"
 autoplay = "idle"
-frame_progress = 0.903647
+frame_progress = 0.0425365
 
 [node name="Camera2D" type="Camera2D" parent="."]
 

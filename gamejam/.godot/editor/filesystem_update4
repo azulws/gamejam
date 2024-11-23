@@ -7,3 +7,4 @@ res://escenas/enemy_zigzag.tscn
 res://escenas/limiteMapa.tscn
 res://escenas/enemy_spawner.tscn
 res://codigo/jugador.gd
+res://escenas/background.tscn

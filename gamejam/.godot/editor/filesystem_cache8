@@ -1,8 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
 ::res://::1732347822
 icon.svg::CompressedTexture2D::2317014683230096168::1732328494::1732328594::1::::<><>::
-::res://assets/::1732349329
-::res://assets/items/::1732349345
+::res://assets/::1732350306
+::res://assets/Fondo croto para probar/::1732350305
+edificios 1 ponele.png::CompressedTexture2D::1349723408759900213::1732349427::1732350310::1::::<><>::
+edificios 2 ponele.png::CompressedTexture2D::1559000943174244823::1732349422::1732350310::1::::<><>::
+Fondo base.png::CompressedTexture2D::2374836366244367637::1732349417::1732350310::1::::<><>::
+Nubes crotas.png::CompressedTexture2D::5858885538034666990::1732349411::1732350310::1::::<><>::
+::res://assets/items/::1732349347
 Iman faro.png::CompressedTexture2D::2288663488830451796::1732349241::1732349347::1::::<><>::
 ::res://assets/player/::1732348039
 personaje_corre_sheet.png::CompressedTexture2D::4798400640982374472::1732348024::1732348039::1::::<><>::
@@ -16,10 +21,10 @@ movement_pattern.gd::GDScript::-1::1732342328::0::1::::<>Node<>::
 movement_pattern_straight.gd::GDScript::-1::1732342328::0::1::::<>Node<>::
 movement_pattern_zigzag.gd::GDScript::-1::1732342328::0::1::::<>Node<>::
 mundo.gd::GDScript::-1::1732341739::0::1::::<>Node2D<>::
-::res://escenas/::1732349299
-enemy_spawner.tscn::PackedScene::526142021391601577::1732349299::0::1::::<><>::res://codigo/enemy_spawner.gd
-enemy_straight.tscn::PackedScene::2813859818849317177::1732349299::0::1::::<><>::res://codigo/enemy_straight.gd<>uid://8am5mw07dpqu::::res://icon.svg
-enemy_zigzag.tscn::PackedScene::2183928107157085945::1732349299::0::1::::<><>::res://codigo/enemy_zigzag.gd<>uid://8am5mw07dpqu::::res://icon.svg
-jugador.tscn::PackedScene::8167571514681009629::1732349299::0::1::::<><>::res://codigo/jugador.gd<>uid://camm7s4whs0c7::::res://assets/player/personaje_corre_sheet.png
-limiteMapa.tscn::PackedScene::3122752873201431773::1732349299::0::1::::<><>::
-mundo.tscn::PackedScene::6620415830110314787::1732349299::0::1::::<><>::uid://hq4qnpivn7fh::::res://escenas/enemy_spawner.tscn<>uid://domoyeie03bdd::::res://escenas/jugador.tscn<>uid://bkqxjv25p26tt::::res://escenas/limiteMapa.tscn<>uid://8am5mw07dpqu::::res://icon.svg
+::res://escenas/::1732349861
+enemy_spawner.tscn::PackedScene::526142021391601577::1732349861::0::1::::<><>::res://codigo/enemy_spawner.gd
+enemy_straight.tscn::PackedScene::2813859818849317177::1732349861::0::1::::<><>::res://codigo/enemy_straight.gd<>uid://7uv7n83su733::::res://assets/items/Iman faro.png
+enemy_zigzag.tscn::PackedScene::2183928107157085945::1732349861::0::1::::<><>::res://codigo/enemy_zigzag.gd<>uid://7uv7n83su733::::res://assets/items/Iman faro.png
+jugador.tscn::PackedScene::8167571514681009629::1732349861::0::1::::<><>::res://codigo/jugador.gd<>uid://camm7s4whs0c7::::res://assets/player/personaje_corre_sheet.png
+limiteMapa.tscn::PackedScene::3122752873201431773::1732349861::0::1::::<><>::
+mundo.tscn::PackedScene::6620415830110314787::1732349861::0::1::::<><>::uid://hq4qnpivn7fh::::res://escenas/enemy_spawner.tscn<>uid://domoyeie03bdd::::res://escenas/jugador.tscn<>uid://bkqxjv25p26tt::::res://escenas/limiteMapa.tscn<>uid://8am5mw07dpqu::::res://icon.svg
