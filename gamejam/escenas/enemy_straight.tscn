@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://bgdb4ijvehy5f"]
 
 [ext_resource type="Script" path="res://codigo/enemy_straight.gd" id="1_4s6uw"]
-[ext_resource type="Texture2D" uid="uid://8am5mw07dpqu" path="res://icon.svg" id="2_6i14t"]
+[ext_resource type="Texture2D" uid="uid://7uv7n83su733" path="res://assets/items/Iman faro.png" id="2_5ax8o"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_c2oow"]
 size = Vector2(123.5, 122)
@@ -12,7 +12,7 @@ motion_mode = 1
 script = ExtResource("1_4s6uw")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("2_6i14t")
+texture = ExtResource("2_5ax8o")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-0.75, 0)
