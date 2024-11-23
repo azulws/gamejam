@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://c1k8jtm1tfs7d"]
+[gd_scene load_steps=9 format=3 uid="uid://c1k8jtm1tfs7d"]
 
 [ext_resource type="Script" path="res://codigo/main.gd" id="1_hpid1"]
 [ext_resource type="PackedScene" uid="uid://domoyeie03bdd" path="res://escenas/Player.tscn" id="2_w732k"]
@@ -7,17 +7,16 @@
 [ext_resource type="PackedScene" uid="uid://sr5llx0htuqr" path="res://escenas/pause.tscn" id="6_lkh8n"]
 [ext_resource type="PackedScene" uid="uid://kcxtyqgirktg" path="res://escenas/timer.tscn" id="7_kwjek"]
 [ext_resource type="PackedScene" uid="uid://cclxc6glhvwsm" path="res://escenas/background.tscn" id="8_8ldd4"]
-[ext_resource type="AudioStream" uid="uid://bpdmka0kw000b" path="res://sounds/Peatonal Rush_2.mp3" id="8_g3uas"]
 [ext_resource type="PackedScene" uid="uid://hq4qnpivn7fh" path="res://escenas/enemy_spawner.tscn" id="9_wevju"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_hpid1")
 
 [node name="Background" parent="." instance=ExtResource("8_8ldd4")]
-position = Vector2(616, -88)
+position = Vector2(432, -88)
 
 [node name="Jugador" parent="." instance=ExtResource("2_w732k")]
-position = Vector2(511, 52)
+position = Vector2(376, 56)
 motion_mode = 1
 
 [node name="pause" parent="Jugador" instance=ExtResource("6_lkh8n")]
@@ -28,10 +27,6 @@ offset_right = -161.0
 offset_bottom = -84.0
 size_flags_horizontal = 4
 size_flags_vertical = 4
-
-[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="Jugador"]
-stream = ExtResource("8_g3uas")
-autoplay = true
 
 [node name="Timer" parent="Jugador" instance=ExtResource("7_kwjek")]
 offset_left = -160.0
@@ -55,14 +50,14 @@ position = Vector2(136, 104)
 position = Vector2(104, 152)
 
 [node name="Enemy_spawner5" parent="Jugador/Node2D" instance=ExtResource("9_wevju")]
-position = Vector2(72, 200)
+position = Vector2(88, 192)
 
 [node name="Stopwatch" parent="." instance=ExtResource("4_gg84t")]
 
 [node name="limites mapa" type="Node" parent="."]
 
 [node name="limite inferior" parent="limites mapa" instance=ExtResource("3_0mqo2")]
-position = Vector2(0, 686)
+position = Vector2(0, 272)
 rotation = 3.14159
 
 [node name="limite superior" parent="limites mapa" instance=ExtResource("3_0mqo2")]

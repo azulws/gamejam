@@ -1,9 +1,6 @@
-[gd_scene load_steps=5 format=3 uid="uid://cclxc6glhvwsm"]
+[gd_scene load_steps=2 format=3 uid="uid://cclxc6glhvwsm"]
 
-[ext_resource type="Texture2D" uid="uid://83nhcouwgsjl" path="res://assets/Fondo croto para probar/Fondo base.png" id="1_6b66u"]
-[ext_resource type="Texture2D" uid="uid://cpqc8vcqqidis" path="res://assets/Fondo croto para probar/Nubes crotas.png" id="2_uxub1"]
-[ext_resource type="Texture2D" uid="uid://th20n6wk3phl" path="res://assets/Fondo croto para probar/edificios 1 ponele.png" id="3_bo45c"]
-[ext_resource type="Texture2D" uid="uid://whgrusc6i70v" path="res://assets/Fondo croto para probar/edificios 2 ponele.png" id="4_vym3v"]
+[ext_resource type="Texture2D" uid="uid://dq87qukicd5df" path="res://assets/backgrounds/Fondo-base-cielo-atardecer.png" id="1_ucldc"]
 
 [node name="Background" type="Node2D"]
 
@@ -12,26 +9,4 @@ repeat_size = Vector2(320, 0)
 repeat_times = 4
 
 [node name="Sprite2D" type="Sprite2D" parent="Parallax2D"]
-texture = ExtResource("1_6b66u")
-
-[node name="Parallax2D4" type="Parallax2D" parent="."]
-repeat_size = Vector2(320, 0)
-autoscroll = Vector2(30, 0)
-repeat_times = 4
-
-[node name="Sprite2D" type="Sprite2D" parent="Parallax2D4"]
-texture = ExtResource("2_uxub1")
-
-[node name="Parallax2D2" type="Parallax2D" parent="."]
-repeat_size = Vector2(320, 0)
-repeat_times = 4
-
-[node name="Sprite2D" type="Sprite2D" parent="Parallax2D2"]
-texture = ExtResource("3_bo45c")
-
-[node name="Parallax2D3" type="Parallax2D" parent="."]
-repeat_size = Vector2(320, 0)
-repeat_times = 4
-
-[node name="Sprite2D" type="Sprite2D" parent="Parallax2D3"]
-texture = ExtResource("4_vym3v")
+texture = ExtResource("1_ucldc")

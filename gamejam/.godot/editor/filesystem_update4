@@ -12,3 +12,4 @@ res://codigo/movement_pattern.gd
 res://escenas/enemy.tscn
 res://codigo/enemy.gd
 res://codigo/enemy_spawner.gd
+res://default_bus_layout.tres

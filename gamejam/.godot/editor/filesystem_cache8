@@ -1,38 +1,38 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1732367598
+::res://::1732379170
 icon.svg::CompressedTexture2D::2317014683230096168::1732358889::1732358913::1::::<><>::
-::res://assets/::1732358889
-::res://assets/Fondo croto para probar/::1732358913
-edificios 1 ponele.png::CompressedTexture2D::1349723408759900213::1732358889::1732358913::1::::<><>::
-edificios 2 ponele.png::CompressedTexture2D::1559000943174244823::1732358889::1732358913::1::::<><>::
-Fondo base.png::CompressedTexture2D::2374836366244367637::1732358889::1732358913::1::::<><>::
-Nubes crotas.png::CompressedTexture2D::5858885538034666990::1732358889::1732358913::1::::<><>::
+default_bus_layout.tres::AudioBusLayout::961240024005168275::1732379170::0::1::::<><>::
+::res://assets/::1732378069
+::res://assets/backgrounds/::1732378085
+Fondo-base-cielo-atardecer.png::CompressedTexture2D::8352380597924154907::1732377253::1732378085::1::::<><>::
+Fondo-base-cielo-dia.png::CompressedTexture2D::835324048843914779::1732377929::1732378085::1::::<><>::
 ::res://assets/items/::1732371644
 Iman faro.png::CompressedTexture2D::2288663488830451796::1732358889::1732358913::1::::<><>::
 Palomota.png::CompressedTexture2D::8314598411664960137::1732371644::1732371644::1::::<><>::
 ::res://assets/player/::1732358913
 personaje_corre_sheet.png::CompressedTexture2D::4798400640982374472::1732358889::1732358913::1::::<><>::
-::res://codigo/::1732370937
-enemy.gd::GDScript::-1::1732370184::0::1::::<>CharacterBody2D<>::
-enemy_spawner.gd::GDScript::-1::1732370937::0::1::::<>Marker2D<>::
+::res://codigo/::1732379354
+enemy.gd::GDScript::-1::1732375492::0::1::::<>CharacterBody2D<>::
+enemy_spawner.gd::GDScript::-1::1732374942::0::1::::<>Marker2D<>::
 main.gd::GDScript::-1::1732358889::0::1::::<>Node2D<>::
 menu.gd::GDScript::-1::1732358889::0::1::::<>Control<>::
 pausa.gd::GDScript::-1::1732358889::0::1::::<>Control<>::
 pause.gd::GDScript::-1::1732358889::0::1::::<>Control<>::
-player.gd::GDScript::-1::1732369860::0::1::::<>CharacterBody2D<>::
+player.gd::GDScript::-1::1732379354::0::1::::<>CharacterBody2D<>::
 Stopwatch.gd::GDScript::-1::1732358889::0::1::::Stopwatch<>Node<>::
 timer.gd::GDScript::-1::1732358889::0::1::::<>Control<>::
-::res://escenas/::1732371489
-background.tscn::PackedScene::4937328910381039296::1732371489::0::1::::<><>::uid://83nhcouwgsjl::::res://assets/Fondo croto para probar/Fondo base.png<>uid://cpqc8vcqqidis::::res://assets/Fondo croto para probar/Nubes crotas.png<>uid://th20n6wk3phl::::res://assets/Fondo croto para probar/edificios 1 ponele.png<>uid://whgrusc6i70v::::res://assets/Fondo croto para probar/edificios 2 ponele.png
-enemy.tscn::PackedScene::7294743713184469559::1732371489::0::1::::<><>::res://codigo/enemy.gd<>uid://7uv7n83su733::::res://assets/items/Iman faro.png
-enemy_spawner.tscn::PackedScene::526142021391601577::1732371489::0::1::::<><>::res://codigo/enemy_spawner.gd
+::res://escenas/::1732379354
+background.tscn::PackedScene::4937328910381039296::1732379354::0::1::::<><>::uid://dq87qukicd5df::::res://assets/backgrounds/Fondo-base-cielo-atardecer.png
+enemy.tscn::PackedScene::7294743713184469559::1732379354::0::1::::<><>::res://codigo/enemy.gd
+enemy_spawner.tscn::PackedScene::526142021391601577::1732379354::0::1::::<><>::res://codigo/enemy_spawner.gd
 limiteMapa.tscn::PackedScene::3122752873201431773::1732358889::0::1::::<><>::
-Main.tscn::PackedScene::6620415830110314787::1732371489::0::1::::<><>::res://codigo/main.gd<>uid://domoyeie03bdd::::res://escenas/Player.tscn<>uid://bkqxjv25p26tt::::res://escenas/limiteMapa.tscn<>uid://iu2rctpjbsu5::::res://escenas/Stopwatch.tscn<>uid://sr5llx0htuqr::::res://escenas/pause.tscn<>uid://kcxtyqgirktg::::res://escenas/timer.tscn<>uid://cclxc6glhvwsm::::res://escenas/background.tscn<>uid://bpdmka0kw000b::::res://sounds/Peatonal Rush_2.mp3<>uid://hq4qnpivn7fh::::res://escenas/enemy_spawner.tscn
+Main.tscn::PackedScene::6620415830110314787::1732379354::0::1::::<><>::res://codigo/main.gd<>uid://domoyeie03bdd::::res://escenas/Player.tscn<>uid://bkqxjv25p26tt::::res://escenas/limiteMapa.tscn<>uid://iu2rctpjbsu5::::res://escenas/Stopwatch.tscn<>uid://sr5llx0htuqr::::res://escenas/pause.tscn<>uid://kcxtyqgirktg::::res://escenas/timer.tscn<>uid://cclxc6glhvwsm::::res://escenas/background.tscn<>uid://bpdmka0kw000b::::res://sounds/Peatonal Rush_2.mp3<>uid://hq4qnpivn7fh::::res://escenas/enemy_spawner.tscn
 Menu.tscn::PackedScene::2808840933407848613::1732358889::0::1::::<><>::res://codigo/menu.gd
 mundo.tscn::PackedScene::-1::1732358889::0::1::::<><>::
 pause.tscn::PackedScene::1300335375252910441::1732358889::0::1::::<><>::res://codigo/pause.gd
-Player.tscn::PackedScene::8167571514681009629::1732371489::0::1::::<><>::res://codigo/player.gd<>uid://camm7s4whs0c7::::res://assets/player/personaje_corre_sheet.png
-Stopwatch.tscn::PackedScene::604468156578135750::1732371489::0::1::::<><>::res://codigo/Stopwatch.gd
-timer.tscn::PackedScene::707448898367522812::1732371489::0::1::::<><>::res://codigo/timer.gd
-::res://sounds/::1732358912
+Player.tscn::PackedScene::8167571514681009629::1732379354::0::1::::<><>::res://codigo/player.gd<>uid://camm7s4whs0c7::::res://assets/player/personaje_corre_sheet.png<>uid://8qd713skb4ua::::res://sounds/pasos-rapidos-loseta-29459 (1).mp3
+Stopwatch.tscn::PackedScene::604468156578135750::1732379354::0::1::::<><>::res://codigo/Stopwatch.gd
+timer.tscn::PackedScene::707448898367522812::1732379354::0::1::::<><>::res://codigo/timer.gd
+::res://sounds/::1732379713
+pasos.mp3::AudioStreamMP3::1433843081911933492::1732379695::1732379718::1::::<><>::
 Peatonal Rush_2.mp3::AudioStreamMP3::3446192972482889055::1732358889::1732358912::1::::<><>::

@@ -29,11 +29,11 @@ func _process(delta: float) -> void:
 	if active_pattern:
 		active_pattern.call(delta)
 
-func _on_area_2d_body_entered(body: CharacterBody2D) -> void:
+func _on_area_2d_body_entered(body: Node2D) -> void:
 	# Incrementa el contador de colisiones
 	colliding += 1
 
-func _on_area_2d_body_exited(body: CharacterBody2D) -> void:
+func _on_area_2d_body_exited(body: Node2D) -> void:
 	# Decrementa el contador de colisiones
 	colliding -= 1
 

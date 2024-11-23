@@ -1,7 +1,9 @@
-[gd_scene load_steps=15 format=3 uid="uid://domoyeie03bdd"]
+[gd_scene load_steps=17 format=3 uid="uid://domoyeie03bdd"]
 
 [ext_resource type="Script" path="res://codigo/player.gd" id="1_avd3n"]
 [ext_resource type="Texture2D" uid="uid://camm7s4whs0c7" path="res://assets/player/personaje_corre_sheet.png" id="2_ygvod"]
+[ext_resource type="AudioStream" uid="uid://uotgldmx6k8c" path="res://sounds/pasos.mp3" id="3_6okni"]
+[ext_resource type="AudioStream" uid="uid://bpdmka0kw000b" path="res://sounds/Peatonal Rush_2.mp3" id="4_shyje"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_uqybq"]
 atlas = ExtResource("2_ygvod")
@@ -106,3 +108,17 @@ frame_progress = 0.0425365
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 7)
 shape = SubResource("CapsuleShape2D_qs5bq")
+
+[node name="Audio" type="Node2D" parent="."]
+
+[node name="Pasos" type="AudioStreamPlayer2D" parent="Audio"]
+stream = ExtResource("3_6okni")
+pitch_scale = 0.85
+bus = &"SoundFX"
+parameters/looping = true
+
+[node name="Musica" type="AudioStreamPlayer2D" parent="Audio"]
+position = Vector2(-56, 144)
+stream = ExtResource("4_shyje")
+autoplay = true
+bus = &"Music"

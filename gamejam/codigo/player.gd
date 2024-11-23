@@ -6,8 +6,13 @@ const COLLISION_SLOWDOWN = 0.3
 var slowdown_time = 0.0
 var direction: Vector2 = Vector2.ZERO
 var colliding
+var walking
 
 @onready var animated_sprite: AnimatedSprite2D = $AnimatedSprite2D
+@onready var pasos: AudioStreamPlayer2D = $Audio/Pasos
+
+func _ready() -> void:
+	pasos.playing = true
 
 func _process(delta: float) -> void:
 	if main.game_started:
@@ -28,6 +33,8 @@ func _process(delta: float) -> void:
 			animated_sprite.play("run")
 			
 	if direction != Vector2.ZERO:
+		pasos.set_stream_paused(false)
+		
 		direction = direction.normalized()
 		if slowdown_time <= 0.0:
 			velocity = direction * SPEED
@@ -38,6 +45,7 @@ func _process(delta: float) -> void:
 			slowdown_time = max(slowdown_time - delta, 0.0) 
 
 	else:
+		pasos.set_stream_paused(true)
 		velocity = velocity.move_toward(Vector2.ZERO, SPEED)
 		animated_sprite.play("idle")
 	

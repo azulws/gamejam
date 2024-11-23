@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://th20n6wk3phl"
-path="res://.godot/imported/edificios 1 ponele.png-1e91ff10cd68695906051748c200ed41.ctex"
+uid="uid://l5vwu12xi7pn"
+path="res://.godot/imported/Fondo-base-cielo-dia.png-aa7d703f0b10caa755baf2ce8a082d30.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Fondo croto para probar/edificios 1 ponele.png"
-dest_files=["res://.godot/imported/edificios 1 ponele.png-1e91ff10cd68695906051748c200ed41.ctex"]
+source_file="res://assets/backgrounds/Fondo-base-cielo-dia.png"
+dest_files=["res://.godot/imported/Fondo-base-cielo-dia.png-aa7d703f0b10caa755baf2ce8a082d30.ctex"]
 
 [params]
 
