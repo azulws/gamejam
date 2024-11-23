@@ -11,16 +11,8 @@
 
 [node name="Limites" type="Node" parent="."]
 
-[node name="limite inferior" parent="Limites" instance=ExtResource("2_kmei0")]
-position = Vector2(0, 686)
-rotation = 3.14159
-
-[node name="Sprite2D" type="Sprite2D" parent="Limites/limite inferior"]
-position = Vector2(-509, -20)
-scale = Vector2(13.9297, 0.3125)
-texture = ExtResource("3_p2i8y")
-
 [node name="limite superior" parent="Limites" instance=ExtResource("2_kmei0")]
+position = Vector2(-119, -352)
 
 [node name="Sprite2D2" type="Sprite2D" parent="Limites/limite superior"]
 position = Vector2(509, -21)
@@ -28,6 +20,15 @@ rotation = -3.14159
 scale = Vector2(13.9297, 0.3125)
 texture = ExtResource("3_p2i8y")
 
+[node name="limite inferior" parent="Limites" instance=ExtResource("2_kmei0")]
+position = Vector2(-166, 376)
+rotation = 3.14159
+
+[node name="Sprite2D" type="Sprite2D" parent="Limites/limite inferior"]
+position = Vector2(-509, -20)
+scale = Vector2(13.9297, 0.3125)
+texture = ExtResource("3_p2i8y")
+
 [node name="Jugador" parent="." instance=ExtResource("1_uceuo")]
-position = Vector2(944, 199)
+position = Vector2(138, -5)
 motion_mode = 1
