@@ -1,9 +1,8 @@
-extends Node
+extends Marker2D
 
-const ENEMY_TYPES = [
-	preload("res://escenas/enemy_straight.tscn"),
-	preload("res://escenas/enemy_zigzag.tscn")
-]
+@onready var enemy_scene = preload("res://escenas/enemy.tscn")
+@onready var main: Node2D = $"../../.."
+
 
 func _ready() -> void:
 	randomize()
@@ -12,7 +11,6 @@ func _on_timer_timeout() -> void:
 	spawn_enemy(self.global_position)
 
 func spawn_enemy(position: Vector2) -> void:
-	var enemy_scene = ENEMY_TYPES[randi() % (ENEMY_TYPES.size())]
 	var enemy = enemy_scene.instantiate()
 	enemy.position = position
-	add_child(enemy)
+	main.add_child(enemy)

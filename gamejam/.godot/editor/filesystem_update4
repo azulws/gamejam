@@ -7,3 +7,8 @@ res://escenas/background.tscn
 res://escenas/enemy_zigzag.tscn
 res://escenas/enemy_straight.tscn
 res://escenas/enemy_spawner.tscn
+res://escenas/straight_pattern.tscn
+res://codigo/movement_pattern.gd
+res://escenas/enemy.tscn
+res://codigo/enemy.gd
+res://codigo/enemy_spawner.gd

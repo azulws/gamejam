@@ -1,3 +1,5 @@
+Node2D
+CharacterBody2D
 RayCast2D
 Marker2D
 AudioStreamPlayer2D
@@ -10,6 +12,3 @@ Node
 Panel
 CanvasLayer
 Button
-VBoxContainer
-BoxContainer
-MarginContainer

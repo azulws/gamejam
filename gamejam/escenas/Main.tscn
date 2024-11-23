@@ -39,6 +39,24 @@ offset_top = -176.0
 offset_right = -160.0
 offset_bottom = -176.0
 
+[node name="Node2D" type="Node2D" parent="Jugador"]
+position = Vector2(-575, -68)
+
+[node name="Enemy_spawner" parent="Jugador/Node2D" instance=ExtResource("9_wevju")]
+position = Vector2(216, 40)
+
+[node name="Enemy_spawner2" parent="Jugador/Node2D" instance=ExtResource("9_wevju")]
+position = Vector2(216, 72)
+
+[node name="Enemy_spawner3" parent="Jugador/Node2D" instance=ExtResource("9_wevju")]
+position = Vector2(216, 104)
+
+[node name="Enemy_spawner4" parent="Jugador/Node2D" instance=ExtResource("9_wevju")]
+position = Vector2(216, 144)
+
+[node name="Enemy_spawner5" parent="Jugador/Node2D" instance=ExtResource("9_wevju")]
+position = Vector2(216, 192)
+
 [node name="Stopwatch" parent="." instance=ExtResource("4_gg84t")]
 
 [node name="limites mapa" type="Node" parent="."]
@@ -48,18 +66,3 @@ position = Vector2(0, 686)
 rotation = 3.14159
 
 [node name="limite superior" parent="limites mapa" instance=ExtResource("3_0mqo2")]
-
-[node name="Enemy_spawner" parent="." instance=ExtResource("9_wevju")]
-position = Vector2(216, 16)
-
-[node name="Enemy_spawner2" parent="." instance=ExtResource("9_wevju")]
-position = Vector2(216, 40)
-
-[node name="Enemy_spawner3" parent="." instance=ExtResource("9_wevju")]
-position = Vector2(216, 64)
-
-[node name="Enemy_spawner4" parent="." instance=ExtResource("9_wevju")]
-position = Vector2(216, 88)
-
-[node name="Enemy_spawner5" parent="." instance=ExtResource("9_wevju")]
-position = Vector2(216, 120)
