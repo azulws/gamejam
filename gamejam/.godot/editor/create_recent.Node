@@ -3,7 +3,6 @@ AudioStreamPlayer2D
 RayCast2D
 CharacterBody2D
 Marker2D
-AudioStreamPlayer2D
 Sprite2D
 Parallax2D
 AnimatedSprite2D

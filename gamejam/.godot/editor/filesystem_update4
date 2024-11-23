@@ -1,19 +1,15 @@
+res://escenas/Player.tscn
 res://escenas/Stopwatch.tscn
+res://codigo/player.gd
 res://escenas/timer.tscn
 res://escenas/Main.tscn
 res://escenas/background.tscn
-res://escenas/Player.tscn
+res://escenas/enemy_zigzag.tscn
+res://escenas/enemy_straight.tscn
 res://escenas/enemy_spawner.tscn
+res://escenas/straight_pattern.tscn
+res://codigo/movement_pattern.gd
 res://escenas/enemy.tscn
+res://codigo/enemy.gd
 res://codigo/enemy_spawner.gd
-<<<<<<< Updated upstream
 res://default_bus_layout.tres
-=======
-res://escenas/pause.tscn
-res://codigo/pause.gd
-res://codigo/main.gd
-res://codigo/Stopwatch.gd
-res://codigo/timer.gd
-res://escenas/Menu.tscn
-res://assets/map/floor.png
->>>>>>> Stashed changes
