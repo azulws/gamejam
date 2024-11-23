@@ -3,6 +3,7 @@ extends CharacterBody2D
 
 const SPEED = 300.0
 const COLLISION_SLOWDOWN = 0.5
+var slowdown_time = 0.0
 var direction: Vector2 = Vector2.ZERO
 var colliding
 
@@ -25,14 +26,17 @@ func _process(delta: float) -> void:
 			direction.x += 1
 			animated_sprite.flip_h = true
 			animated_sprite.play("run")
-	
-	# Normaliza la dirección si hay movimiento
+			
 	if direction != Vector2.ZERO:
 		direction = direction.normalized()
-		velocity *= COLLISION_SLOWDOWN
-		velocity = direction * SPEED
-		if colliding:
-			velocity *= COLLISION_SLOWDOWN
+		if slowdown_time <= 0.0:
+			velocity = direction * SPEED
+			if colliding:
+				slowdown_time = 1.5
+		else:
+			velocity = direction * SPEED * COLLISION_SLOWDOWN
+			slowdown_time = max(slowdown_time - delta, 0.0) 
+
 	else:
 		velocity = velocity.move_toward(Vector2.ZERO, SPEED)
 		animated_sprite.play("idle")

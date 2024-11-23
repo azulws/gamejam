@@ -1,6 +1,6 @@
 [gd_scene load_steps=15 format=3 uid="uid://domoyeie03bdd"]
 
-[ext_resource type="Script" path="res://codigo/jugador.gd" id="1_avd3n"]
+[ext_resource type="Script" path="res://codigo/player.gd" id="1_avd3n"]
 [ext_resource type="Texture2D" uid="uid://camm7s4whs0c7" path="res://assets/player/personaje_corre_sheet.png" id="2_ygvod"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_uqybq"]
@@ -90,7 +90,7 @@ animations = [{
 radius = 5.0
 height = 14.0
 
-[node name="Jugador" type="CharacterBody2D"]
+[node name="Player" type="CharacterBody2D"]
 position = Vector2(0, -14)
 collision_layer = 2
 script = ExtResource("1_avd3n")
