@@ -2,6 +2,7 @@ extends Marker2D
 
 @onready var enemy_scene = preload("res://escenas/enemy.tscn")
 @onready var main: Node2D = $"../../.."
+@onready var ray_cast_2d: RayCast2D = $Timer/RayCast2D
 
 
 func _ready() -> void:

@@ -69,10 +69,15 @@ func _zigzag(delta: float) -> void:
 func _pingpong(delta: float) -> void:
 	if !sprite.texture:
 		sprite.texture = sprites[0]
-	if !colliding:
 		direction.y = 1
+		
+	if colliding <= 0:
 		if position.y < 20 or position.y > 500:
 			direction.y *= -1
+		velocity = direction.normalized() * SPEED
+	else: 
+		colliding = 0
+		direction.y *= -1
 		velocity = direction.normalized() * SPEED
 	move_and_slide()
 
