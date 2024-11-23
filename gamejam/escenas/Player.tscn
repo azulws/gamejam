@@ -1,6 +1,5 @@
 [gd_scene load_steps=15 format=3 uid="uid://domoyeie03bdd"]
 
-[ext_resource type="Texture2D" uid="uid://8am5mw07dpqu" path="res://icon.svg" id="1_7i3d0"]
 [ext_resource type="Script" path="res://codigo/jugador.gd" id="1_avd3n"]
 [ext_resource type="Texture2D" uid="uid://camm7s4whs0c7" path="res://assets/player/personaje_corre_sheet.png" id="2_ygvod"]
 

@@ -19,11 +19,12 @@ func _process(delta: float) -> void:
 			direction.y += 1
 		if Input.is_action_pressed("left"):
 			direction.x -= 1
-		animated_sprite.flip_h = false
-		animated_sprite.play("run")
-	if Input.is_action_pressed("right"):
-			direction.x += 1animated_sprite.flip_h = true
-		animated_sprite.play("run")
+			animated_sprite.flip_h = false
+			animated_sprite.play("run")
+		if Input.is_action_pressed("right"):
+			direction.x += 1
+			animated_sprite.flip_h = true
+			animated_sprite.play("run")
 	
 	# Normaliza la dirección si hay movimiento
 	if direction != Vector2.ZERO:
