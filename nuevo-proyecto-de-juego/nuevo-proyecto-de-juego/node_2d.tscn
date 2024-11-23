@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://bn1ab11dsgcv2"]
+
+[ext_resource type="Texture2D" uid="uid://dgq04uybao4r6" path="res://istockphoto-1339312029-612x612.jpg" id="1_a34yb"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(69, 68)
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="piso" type="Sprite2D" parent="."]
+position = Vector2(64, 111)
+texture = ExtResource("1_a34yb")
