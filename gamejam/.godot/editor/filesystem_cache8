@@ -1,9 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1732328592
-icon.svg::CompressedTexture2D::2317014683230096168::1732328494::1732328594::1::::<><>::
-::res://codigo/::1732328494
-jugador.gd::GDScript::-1::1732328494::0::1::::<>CharacterBody2D<>::
-::res://escenas/::1732328494
-jugador.tscn::PackedScene::8167571514681009629::1732328494::0::1::::<><>::uid://8am5mw07dpqu::::res://icon.svg<>res://codigo/jugador.gd
-limiteMapa.tscn::PackedScene::3122752873201431773::1732328494::0::1::::<><>::
-mundo.tscn::PackedScene::6620415830110314787::1732328494::0::1::::<><>::uid://domoyeie03bdd::::res://escenas/jugador.tscn<>uid://bkqxjv25p26tt::::res://escenas/limiteMapa.tscn<>uid://8am5mw07dpqu::::res://icon.svg
+::res://::1732329807
+icon.svg::CompressedTexture2D::2317014683230096168::1732329300::1732329807::1::::<><>::
+::res://codigo/::1732329691
+jugador.gd::GDScript::-1::1732329691::0::1::::<>CharacterBody2D<>::
+::res://escenas/::1732329300
+jugador.tscn::PackedScene::8167571514681009629::1732329300::0::1::::<><>::uid://8am5mw07dpqu::::res://icon.svg<>res://codigo/jugador.gd
+limiteMapa.tscn::PackedScene::3122752873201431773::1732329300::0::1::::<><>::
+mundo.tscn::PackedScene::6620415830110314787::1732329300::0::1::::<><>::uid://domoyeie03bdd::::res://escenas/jugador.tscn<>uid://bkqxjv25p26tt::::res://escenas/limiteMapa.tscn<>uid://8am5mw07dpqu::::res://icon.svg

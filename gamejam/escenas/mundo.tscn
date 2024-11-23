@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://c1k8jtm1tfs7d"]
+[gd_scene load_steps=5 format=3 uid="uid://c1k8jtm1tfs7d"]
 
 [ext_resource type="PackedScene" uid="uid://domoyeie03bdd" path="res://escenas/jugador.tscn" id="1_uceuo"]
 [ext_resource type="PackedScene" uid="uid://bkqxjv25p26tt" path="res://escenas/limiteMapa.tscn" id="2_kmei0"]
 [ext_resource type="Texture2D" uid="uid://8am5mw07dpqu" path="res://icon.svg" id="3_p2i8y"]
+[ext_resource type="Script" path="res://escenas/timer.gd" id="4_uakf8"]
 
 [node name="mundo" type="Node2D"]
 
@@ -28,3 +29,9 @@ position = Vector2(509, -21)
 rotation = -3.14159
 scale = Vector2(13.9297, 0.3125)
 texture = ExtResource("3_p2i8y")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 33.89
+one_shot = true
+autostart = true
+script = ExtResource("4_uakf8")

@@ -1,3 +1,5 @@
-res://escenas/mundo.tscn
-res://codigo/jugador.gd
 res://escenas/jugador.tscn
+res://codigo/jugador.gd
+res://escenas/mundo.tscn
+res://codigo/enimigo.gd
+res://escenas/timer.gd
