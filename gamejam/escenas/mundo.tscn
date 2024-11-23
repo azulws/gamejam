@@ -1,30 +1,34 @@
-[gd_scene load_steps=4 format=3 uid="uid://c1k8jtm1tfs7d"]
+[gd_scene load_steps=5 format=3 uid="uid://c1k8jtm1tfs7d"]
 
 [ext_resource type="PackedScene" uid="uid://domoyeie03bdd" path="res://escenas/jugador.tscn" id="1_uceuo"]
 [ext_resource type="PackedScene" uid="uid://bkqxjv25p26tt" path="res://escenas/limiteMapa.tscn" id="2_kmei0"]
 [ext_resource type="Texture2D" uid="uid://8am5mw07dpqu" path="res://icon.svg" id="3_p2i8y"]
+[ext_resource type="PackedScene" uid="uid://dc5pbqkc27vd6" path="res://escenas/enemigo.tscn" id="4_t31r3"]
 
 [node name="mundo" type="Node2D"]
 
-[node name="Jugador" parent="." instance=ExtResource("1_uceuo")]
-position = Vector2(577, 324)
-motion_mode = 1
+[node name="Limites" type="Node" parent="."]
 
-[node name="Node" type="Node" parent="."]
-
-[node name="limite inferior" parent="Node" instance=ExtResource("2_kmei0")]
+[node name="limite inferior" parent="Limites" instance=ExtResource("2_kmei0")]
 position = Vector2(0, 686)
 rotation = 3.14159
 
-[node name="Sprite2D" type="Sprite2D" parent="Node/limite inferior"]
+[node name="Sprite2D" type="Sprite2D" parent="Limites/limite inferior"]
 position = Vector2(-509, -20)
 scale = Vector2(13.9297, 0.3125)
 texture = ExtResource("3_p2i8y")
 
-[node name="limite superior" parent="Node" instance=ExtResource("2_kmei0")]
+[node name="limite superior" parent="Limites" instance=ExtResource("2_kmei0")]
 
-[node name="Sprite2D2" type="Sprite2D" parent="Node/limite superior"]
+[node name="Sprite2D2" type="Sprite2D" parent="Limites/limite superior"]
 position = Vector2(509, -21)
 rotation = -3.14159
 scale = Vector2(13.9297, 0.3125)
 texture = ExtResource("3_p2i8y")
+
+[node name="Jugador" parent="." instance=ExtResource("1_uceuo")]
+position = Vector2(944, 199)
+motion_mode = 1
+
+[node name="Enemigo" parent="." instance=ExtResource("4_t31r3")]
+position = Vector2(-99, 193)

@@ -1,11 +1,11 @@
 extends CharacterBody2D
 
 const SPEED = 300.0
-const COLLISION_SLOWDOWN = 0.5  # Factor de reducción (50% de velocidad al colisionar)
+const COLLISION_SLOWDOWN = 0.5 
 var direction: Vector2 = Vector2.ZERO
 var colliding
 
-func _physics_process(delta: float) -> void:
+func _process(delta: float) -> void:
 	direction = Vector2.ZERO
 	
 	# Detecta las entradas del jugador
@@ -27,7 +27,7 @@ func _physics_process(delta: float) -> void:
 			velocity *= COLLISION_SLOWDOWN
 
 	else:
-		velocity = velocity.move_toward(Vector2.ZERO, SPEED * delta)
+		velocity = velocity.move_toward(Vector2.ZERO, SPEED)
 	
 	# Mueve al personaje y verifica colisiones
 	colliding = move_and_slide()
