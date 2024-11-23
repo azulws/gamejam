@@ -1,1 +1,10 @@
+AudioStreamPlayer2D
 Timer
+Label
+Node
+Panel
+CanvasLayer
+Button
+VBoxContainer
+BoxContainer
+MarginContainer
