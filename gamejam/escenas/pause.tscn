@@ -25,11 +25,16 @@ layout_mode = 2
 layout_mode = 2
 text = "continuar"
 
+[node name="reset" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "reset"
+
 [node name="quit" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
 text = "salir"
 
 [connection signal="pressed" from="MarginContainer/VBoxContainer/continue" to="." method="_on_continuar_pressed"]
 [connection signal="pressed" from="MarginContainer/VBoxContainer/continue" to="." method="_on_continue_pressed"]
-[connection signal="pressed" from="MarginContainer/VBoxContainer/quit" to="." method="_on_quit_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/reset" to="." method="_on_reset_pressed"]
 [connection signal="pressed" from="MarginContainer/VBoxContainer/quit" to="." method="_on_salir_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/quit" to="." method="_on_quit_pressed"]

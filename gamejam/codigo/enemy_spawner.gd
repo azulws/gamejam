@@ -2,6 +2,10 @@ extends Marker2D
 
 @onready var enemy_scene = preload("res://escenas/enemy.tscn")
 @onready var main: Node2D = $"../../.."
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 
 func _ready() -> void:
 	randomize()

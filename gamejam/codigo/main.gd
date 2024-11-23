@@ -5,6 +5,7 @@ extends Node2D
 var paused = false
 var game_started= false
 
+
 func _process(delta):
 	if Input.is_action_just_pressed("pause"):
 		_pause_menu()
