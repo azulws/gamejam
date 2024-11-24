@@ -1,85 +1,60 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1732432719
+::res://::1732412471
 default_bus_layout.tres::AudioBusLayout::961240024005168275::1732392146::0::1::::<><>::
-floor.tres::TileSet::340464553002496770::1732415089::0::1::::<><>::uid://dv8b25i32vxbd::::res://assets/map/Piso-base-peatonal.png
-icon.svg::CompressedTexture2D::2317014683230096168::1732329300::1732415112::1::::<><>::
-::res://assets/::1732427587
-Piso-arriba-peatonal.png::CompressedTexture2D::990728303327239643::1732415089::1732415112::1::::<><>::
-Piso-base-peatonal.png::CompressedTexture2D::1166960995089887944::1732415089::1732415112::1::::<><>::
-::res://assets/backgrounds/::1732415112
+floor.tres::TileSet::340464553002496770::1732393209::0::1::::<><>::uid://dv8b25i32vxbd::::res://assets/map/Piso-base-peatonal.png
+icon.svg::CompressedTexture2D::2317014683230096168::1732329300::1732393047::1::::<><>::
+::res://assets/::1732412471
+Piso-arriba-peatonal.png::CompressedTexture2D::990728303327239643::1732393209::1732393263::1::::<><>::
+Piso-base-peatonal.png::CompressedTexture2D::1166960995089887944::1732393209::1732393263::1::::<><>::
+::res://assets/backgrounds/::1732406509
 celu_vacio.png::CompressedTexture2D::2197226703305010658::1732406509::1732406503::1::::<><>::
-Fondo-base-cielo-atardecer.png::CompressedTexture2D::8352380597924154907::1732415089::1732415112::1::::<><>::
-Fondo-base-cielo-dia.png::CompressedTexture2D::835324048843914779::1732415089::1732415112::1::::<><>::
-::res://assets/backgrounds/Day/::1732415112
-fondo-base-calle.png::CompressedTexture2D::7635160110854258021::1732393223::1732415112::1::::<><>::
-fondo-base-cielo-dia.png::CompressedTexture2D::6537094466715613384::1732393223::1732415112::1::::<><>::
-fondo-base-dia-cielo-capa1.png::CompressedTexture2D::5099914228926129060::1732393223::1732415112::1::::<><>::
-fondo-base-dia-cielo-capa2.png::CompressedTexture2D::7312553384929028135::1732415089::1732415112::1::::<><>::
-fondo-base-dia-cielo-capa3.png::CompressedTexture2D::3485288342181704339::1732415089::1732415112::1::::<><>::
-fondo-base-dia-cielo-capa4.png::CompressedTexture2D::347661313161895409::1732415089::1732415112::1::::<><>::
-fondo-base-dia-edificios1.png::CompressedTexture2D::4391379773883612377::1732415089::1732415112::1::::<><>::
-fondo-base-dia-edificios2.png::CompressedTexture2D::6164122069916883892::1732415089::1732415112::1::::<><>::
-::res://assets/cellphone/::1732432719
-alfajor sombra.png::CompressedTexture2D::4578211290800973228::1732424933::1732432719::1::::<><>::
-Caracol sombra.png::CompressedTexture2D::899534441254092539::1732424933::1732432719::1::::<><>::
-celu vacio.png::CompressedTexture2D::6286797918974072766::1732412469::1732432694::1::::<><>::
-churritos sombra.png::CompressedTexture2D::477934733230696493::1732424933::1732432719::1::::<><>::
-Iman faro sombra.png::CompressedTexture2D::2342956121870206236::1732424933::1732432719::1::::<><>::
-llavero sombra.png::CompressedTexture2D::3643871904793086190::1732424933::1732432719::1::::<><>::
-Lobo marino sombra.png::CompressedTexture2D::8482764389841183566::1732424933::1732432719::1::::<><>::
-::res://assets/items/::1732432719
-alfajorcito.png::CompressedTexture2D::1968148684250415105::1732410894::1732432687::1::::<><>::
-Caracol.png::CompressedTexture2D::7997765852949428770::1732410457::1732432687::1::::<><>::
-Churritos.png::CompressedTexture2D::3409287254349468509::1732410460::1732432687::1::::<><>::
-Collar.png::CompressedTexture2D::8276715832644316045::1732410498::1732432687::1::::<><>::
-Iman faro.png::CompressedTexture2D::5490986125548762004::1732406656::1732432687::1::::<><>::
-llavero.png::CompressedTexture2D::6585746384207288883::1732410672::1732432687::1::::<><>::
-Lobo marino.png::CompressedTexture2D::7401185087971358907::1732410668::1732432687::1::::<><>::
-Palomota.png::CompressedTexture2D::8314598411664960137::1732415089::1732415112::1::::<><>::
-::res://assets/map/::1732415112
-floor.png::CompressedTexture2D::4892325511294695608::1732415089::1732415112::1::::<><>::
-Piso-arriba-peatonal.png::CompressedTexture2D::3777707778688577632::1732415089::1732415112::1::::<><>::
-Piso-base-peatonal.png::CompressedTexture2D::8701462756158219097::1732415089::1732415112::1::::<><>::
-::res://assets/menu/::1732427692
-::res://assets/menu/gameOverMenu/::1732427725
-boton-reiniciar.png::CompressedTexture2D::6418683591683476886::1732427725::1732427725::1::::<><>::
-boton-salir.png::CompressedTexture2D::850407658106645779::1732427725::1732427725::1::::<><>::
-menu-derrota-peatonalrush.png::CompressedTexture2D::4975964014954957049::1732427681::1732427699::1::::<><>::
-::res://assets/menu/pauseMenu/::1732429075
-boton-continuar.png::CompressedTexture2D::8118737249019476756::1732427781::1732429075::1::::<><>::
-boton-jugar.png::CompressedTexture2D::7246798779481190530::1732427681::1732427681::1::::<><>::
-boton-reiniciar.png::CompressedTexture2D::7053376578678238688::1732427681::1732427681::1::::<><>::
-boton-salir.png::CompressedTexture2D::5095678474996219236::1732427681::1732427681::1::::<><>::
-menu-caja-peatonalrush.png::CompressedTexture2D::3697816694336174058::1732427653::1732427653::1::::<><>::
-menu-victoria-peatonalrush.png::CompressedTexture2D::4857351953215261800::1732427681::1732427681::1::::<><>::
-::res://assets/menu/startMenu/::1732427587
-boton-jugar.png::CompressedTexture2D::838633347266312384::1732421835::1732427587::1::::<><>::
-boton-salir.png::CompressedTexture2D::1901323961915800959::1732422260::1732427587::1::::<><>::
-menu-completo-peatonalrush.png::CompressedTexture2D::6709447064638585393::1732422269::1732427587::1::::<><>::
-menu-sin-botones.png::CompressedTexture2D::7638525484938223747::1732421708::1732427587::1::::<><>::
-::res://assets/player/::1732415112
-personaje_corre_sheet.png::CompressedTexture2D::4798400640982374472::1732415089::1732415112::1::::<><>::
-::res://assets/ui/::1732420889
-celu_ui.png::CompressedTexture2D::2809046612740557::1732420863::1732420889::1::::<><>::
-luna_v2.png::CompressedTexture2D::3065953006872472611::1732393209::1732415112::1::::<><>::
-Sol.png::CompressedTexture2D::3454991164229126010::1732393209::1732415112::1::::<><>::
-::res://codigo/::1732428591
-enemy.gd::GDScript::-1::1732415089::0::1::::<>CharacterBody2D<>::
-enemy_spawner.gd::GDScript::-1::1732415089::0::1::::<>Marker2D<>::
-game_over.gd::GDScript::-1::1732428591::0::1::::<>Control<>::
-main.gd::GDScript::-1::1732424578::0::1::::<>Node2D<>::
-menu.gd::GDScript::-1::1732422543::0::1::::<>Control<>::
-pause.gd::GDScript::-1::1732428303::0::1::::<>Control<>::
-player.gd::GDScript::-1::1732415089::0::1::::<>CharacterBody2D<>::
+Fondo-base-cielo-atardecer.png::CompressedTexture2D::8352380597924154907::1732392146::1732393047::1::::<><>::
+Fondo-base-cielo-dia.png::CompressedTexture2D::835324048843914779::1732392146::1732393047::1::::<><>::
+::res://assets/backgrounds/Day/::1732393263
+fondo-base-calle.png::CompressedTexture2D::7635160110854258021::1732393223::1732393263::1::::<><>::
+fondo-base-cielo-dia.png::CompressedTexture2D::6537094466715613384::1732393223::1732393263::1::::<><>::
+fondo-base-dia-cielo-capa1.png::CompressedTexture2D::5099914228926129060::1732393223::1732393263::1::::<><>::
+fondo-base-dia-cielo-capa2.png::CompressedTexture2D::7312553384929028135::1732393223::1732393263::1::::<><>::
+fondo-base-dia-cielo-capa3.png::CompressedTexture2D::3485288342181704339::1732393223::1732393263::1::::<><>::
+fondo-base-dia-cielo-capa4.png::CompressedTexture2D::347661313161895409::1732393223::1732393263::1::::<><>::
+fondo-base-dia-edificios1.png::CompressedTexture2D::4391379773883612377::1732393223::1732393263::1::::<><>::
+fondo-base-dia-edificios2.png::CompressedTexture2D::6164122069916883892::1732393223::1732393263::1::::<><>::
+::res://assets/items/::1732393047
+Iman faro.png::CompressedTexture2D::2288663488830451796::1732392146::1732393047::1::::<><>::
+Palomota.png::CompressedTexture2D::8314598411664960137::1732392146::1732393047::1::::<><>::
+::res://assets/map/::1732393263
+floor.png::CompressedTexture2D::4892325511294695608::1732393209::1732393263::1::::<><>::
+Piso-arriba-peatonal.png::CompressedTexture2D::3777707778688577632::1732393209::1732393263::1::::<><>::
+Piso-base-peatonal.png::CompressedTexture2D::8701462756158219097::1732393209::1732393263::1::::<><>::
+::res://assets/player/::1732393047
+personaje_corre_sheet.png::CompressedTexture2D::4798400640982374472::1732392146::1732393047::1::::<><>::
+::res://assets/ui/::1732412471
+alfajorcito silueta (1).png::CompressedTexture2D::5244220092049629619::1732411554::1732411554::1::::<><>::
+alfajorcito.png::CompressedTexture2D::1968148684250415105::1732410894::1732410894::1::::<><>::
+Caracol.png::CompressedTexture2D::7997765852949428770::1732410457::1732406633::1::::<><>::
+celu vacio (2).png::CompressedTexture2D::6286797918974072766::1732412469::1732412471::1::::<><>::
+Churritos.png::CompressedTexture2D::3409287254349468509::1732410460::1732406647::1::::<><>::
+Collar.png::CompressedTexture2D::8276715832644316045::1732410498::1732410498::1::::<><>::
+Iman faro.png::CompressedTexture2D::5490986125548762004::1732406656::1732406656::1::::<><>::
+llavero.png::CompressedTexture2D::6585746384207288883::1732410672::1732410672::1::::<><>::
+Lobo marino.png::CompressedTexture2D::7401185087971358907::1732410668::1732410668::1::::<><>::
+luna_v2.png::CompressedTexture2D::3065953006872472611::1732393209::1732393263::1::::<><>::
+Sol.png::CompressedTexture2D::3454991164229126010::1732393209::1732393263::1::::<><>::
+::res://codigo/::1732412031
+enemy.gd::GDScript::-1::1732392146::0::1::::<>CharacterBody2D<>::
+enemy_spawner.gd::GDScript::-1::1732393209::0::1::::<>Marker2D<>::
+game_over.gd::GDScript::-1::1732399119::0::1::::<>Control<>::
+main.gd::GDScript::-1::1732412031::0::1::::<>Node2D<>::
+menu.gd::GDScript::-1::1732392146::0::1::::<>Control<>::
+pause.gd::GDScript::-1::1732396818::0::1::::<>Control<>::
+player.gd::GDScript::-1::1732392146::0::1::::<>CharacterBody2D<>::
 Stopwatch.gd::GDScript::-1::1732402097::0::1::::<>Node<>::
-timer.gd::GDScript::-1::1732415089::0::1::::<>Control<>::
-::res://escenas/::1732432719
-background.tscn::PackedScene::4937328910381039296::1732415089::0::1::::<><>::uid://dq87qukicd5df::::res://assets/backgrounds/Fondo-base-cielo-atardecer.png
-cellphone.gd::GDScript::-1::1732421453::0::1::::<>Control<>::
-cellphone.tscn::PackedScene::4675164298995778031::1732432719::0::1::::<><>::uid://bmi84lsnfxd::::res://assets/ui/celu_ui.png<>res://escenas/cellphone.gd<>uid://cvtmv4s3p0bd3::::res://assets/cellphone/celu vacio.png<>uid://c03gjss6owgbj::::res://assets/items/llavero.png<>uid://br6ebj2pingj3::::res://assets/cellphone/llavero sombra.png<>uid://botqp0g2soasj::::res://assets/items/Churritos.png<>uid://g2rrrutj34g4::::res://assets/cellphone/churritos sombra.png<>uid://dl7gbgt7tqnhq::::res://assets/items/Caracol.png<>uid://m20g3fgd10p0::::res://assets/cellphone/Caracol sombra.png<>uid://ckh40etjjit53::::res://assets/items/Iman faro.png<>uid://8m7e6v0qguuu::::res://assets/cellphone/Iman faro sombra.png<>uid://ddpgo4ixlmqpn::::res://assets/items/Lobo marino.png<>uid://ds4d5jat5pl4q::::res://assets/cellphone/Lobo marino sombra.png<>uid://3bneeg1eyyof::::res://assets/items/alfajorcito.png<>uid://b6hyqatd0ox21::::res://assets/cellphone/alfajor sombra.png
-enemy.tscn::PackedScene::7294743713184469559::1732415089::0::1::::<><>::res://codigo/enemy.gd
-enemy_spawner.tscn::PackedScene::526142021391601577::1732415089::0::1::::<><>::res://codigo/enemy_spawner.gd
-game_over.tscn::PackedScene::8094372109283063269::1732432257::0::1::::<><>::res://codigo/game_over.gd<>uid://cc5nnu1r424yn::::res://assets/menu/gameOverMenu/menu-derrota-peatonalrush.png<>uid://cxpi1s2nfpr6m::::res://assets/menu/gameOverMenu/boton-reiniciar.png<>uid://md7db50017xf::::res://assets/menu/gameOverMenu/boton-salir.png
+timer.gd::GDScript::-1::1732393209::0::1::::<>Control<>::
+::res://escenas/::1732412320
+background.tscn::PackedScene::4937328910381039296::1732395770::0::1::::<><>::uid://dq87qukicd5df::::res://assets/backgrounds/Fondo-base-cielo-atardecer.png
+enemy.tscn::PackedScene::7294743713184469559::1732395770::0::1::::<><>::res://codigo/enemy.gd
+enemy_spawner.tscn::PackedScene::526142021391601577::1732395770::0::1::::<><>::res://codigo/enemy_spawner.gd
+game_over.tscn::PackedScene::8094372109283063269::1732399664::0::1::::<><>::res://codigo/game_over.gd
 limiteMapa.tscn::PackedScene::3122752873201431773::1732395770::0::1::::<><>::
 Main.tscn::PackedScene::6620415830110314787::1732412320::0::1::::<><>::res://codigo/main.gd<>uid://domoyeie03bdd::::res://escenas/Player.tscn<>uid://bkqxjv25p26tt::::res://escenas/limiteMapa.tscn<>uid://cbx45ew2kmtw7::::res://assets/map/floor.png<>uid://sr5llx0htuqr::::res://escenas/pause.tscn<>uid://kcxtyqgirktg::::res://escenas/timer.tscn<>uid://cclxc6glhvwsm::::res://escenas/background.tscn<>uid://dnk8ejx1hmyyf::::res://escenas/game_over.tscn<>uid://dst3xlq2y1a2j::::res://assets/ui/celu vacio.png<>uid://hq4qnpivn7fh::::res://escenas/enemy_spawner.tscn<>uid://dl7gbgt7tqnhq::::res://assets/ui/Caracol.png<>uid://botqp0g2soasj::::res://assets/ui/Churritos.png<>uid://ckh40etjjit53::::res://assets/ui/Iman faro.png<>uid://c03gjss6owgbj::::res://assets/ui/llavero.png<>uid://3bneeg1eyyof::::res://assets/ui/alfajorcito.png<>uid://ddpgo4ixlmqpn::::res://assets/ui/Lobo marino.png<>uid://cgylsk1c3jsit::::res://assets/ui/alfajorcito silueta (1).png
 Menu.tscn::PackedScene::2808840933407848613::1732412320::0::1::::<><>::res://codigo/menu.gd

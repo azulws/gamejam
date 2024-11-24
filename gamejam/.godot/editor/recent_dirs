@@ -1,7 +1,6 @@
-res://escenas
-res://
 res://sounds
 res://codigo
+res://escenas
 <<<<<<< Updated upstream
 res://assets/player
 res://
@@ -16,6 +15,7 @@ res://assets/player
 res://sounds
 =======
 res://assets/map
+res://
 res://assets/player
 res://sounds
 >>>>>>> Stashed changes

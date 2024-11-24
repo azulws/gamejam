@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ceuncyqer5e33"
-path="res://.godot/imported/boton-salir.png-7ec6862ae3192b6092f03de18b0e28e1.ctex"
+uid="uid://botqp0g2soasj"
+path="res://.godot/imported/Churritos.png-4644ede151ad603817cc43477d335987.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/menu/pauseMenu/boton-salir.png"
-dest_files=["res://.godot/imported/boton-salir.png-7ec6862ae3192b6092f03de18b0e28e1.ctex"]
+source_file="res://assets/ui/Churritos.png"
+dest_files=["res://.godot/imported/Churritos.png-4644ede151ad603817cc43477d335987.ctex"]
 
 [params]
 

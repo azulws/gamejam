@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://m20g3fgd10p0"
-path="res://.godot/imported/Caracol sombra.png-ad6d7843c44dedd510c44cae980702d9.ctex"
+uid="uid://ddpgo4ixlmqpn"
+path="res://.godot/imported/Lobo marino.png-48456d3223abd0d679597caec3c46ae5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/cellphone/Caracol sombra.png"
-dest_files=["res://.godot/imported/Caracol sombra.png-ad6d7843c44dedd510c44cae980702d9.ctex"]
+source_file="res://assets/ui/Lobo marino.png"
+dest_files=["res://.godot/imported/Lobo marino.png-48456d3223abd0d679597caec3c46ae5.ctex"]
 
 [params]
 

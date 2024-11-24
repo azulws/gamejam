@@ -1,11 +1,3 @@
-CanvasLayer
-Camera2D
-CollisionShape2D
-ShapeCast2D
-TextureRect
-ItemList
-TextureButton
-VBoxContainer
 Button
 Label
 TextEdit
