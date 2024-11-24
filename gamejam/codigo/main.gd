@@ -38,7 +38,7 @@ func _game_over_menu():
 		Music.stream = load("res://sounds/Sonido victoria.mp3")
 		Music.play()
 		Engine.time_scale=0
-		
+
 		game_o = !game_o
 
 func _win_menu():
@@ -47,7 +47,7 @@ func _win_menu():
 		Music.stream = load("res://sounds/Cancion victoria.mp3")
 		Music.play()
 		Engine.time_scale=0
-		
+
 	game_w = !game_w
 
 func _reload_level():
@@ -63,4 +63,4 @@ func _cellphone_menu():
 		cellphone.get_node("VBoxContainer/cellphone_menu").hide()
 
 	cellphone_on = !cellphone_on
-	
+

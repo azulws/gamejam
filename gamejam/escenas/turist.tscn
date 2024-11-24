@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://hlmtrv4eaa1w"]
 
-[ext_resource type="Script" path="res://codigo/turist.gd" id="1_uc38h"]
+[ext_resource type="Script" path="res://turist.gd" id="1_uc38h"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_y2dni"]
 resource_local_to_scene = true

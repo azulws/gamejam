@@ -1,5 +1,18 @@
 TextureButton
 TextureRect
+AnimatedSprite2D
+AudioStreamPlayer2D
+Node2D
+CanvasLayer
+CanvasModulate
+Area2D
+TextureButton
+Button
+Camera2D
+CollisionShape2D
+ShapeCast2D
+TextureRect
+ItemList
 VBoxContainer
 BoxContainer
 CanvasLayer
@@ -12,3 +25,4 @@ Camera2D
 CollisionShape2D
 ShapeCast2D
 ItemList
+Label
