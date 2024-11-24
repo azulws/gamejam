@@ -1,4 +1,6 @@
 [gd_scene format=3 uid="uid://bildlrovk3suo"]
 
 [node name="Music" type="AudioStreamPlayer2D"]
+max_distance = 10000.0
+attenuation = 4.6256e-05
 bus = &"Music"

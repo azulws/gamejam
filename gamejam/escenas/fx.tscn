@@ -1,3 +1,5 @@
 [gd_scene format=3 uid="uid://cds6tetbsa82q"]
 
 [node name="fx" type="AudioStreamPlayer2D"]
+max_distance = 10000.0
+attenuation = 2.56621e-05

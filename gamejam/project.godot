@@ -13,11 +13,11 @@ config_version=5
 config/name="gamejam"
 run/main_scene="res://escenas/Menu.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://assets/items/Lobo marino.png"
 
 [autoload]
 
-Music="*res://sounds/music.tscn"
+Music="*res://escenas/music.tscn"
 Fx="*res://escenas/fx.tscn"
 
 [display]

@@ -14,7 +14,7 @@ static var count = 0
 static var collected = 0
 
 func _ready() -> void:
-	if count < 5:
+	if count < 6:
 		var sprite_frames = _get_spritesheet()
 		sprite.frames = sprite_frames
 		sprite.play("default")
@@ -56,8 +56,8 @@ func _win():
 
 
 func _on_area_2d_body_entered(body: Node2D) -> void:
-	queue_free()
 	Fx.stream = load("res://sounds/souvenir.mp3")
 	Fx.play()
 	collected += 1
 	_win()
+	queue_free()
