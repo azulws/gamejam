@@ -1,4 +1,4 @@
-[gd_scene load_steps=59 format=3 uid="uid://domoyeie03bdd"]
+[gd_scene load_steps=58 format=3 uid="uid://domoyeie03bdd"]
 
 [ext_resource type="Script" path="res://codigo/player.gd" id="1_avd3n"]
 [ext_resource type="Texture2D" uid="uid://cm53ceku117ar" path="res://assets/player/Prota_posicion_descanso_PERFIL-Sheet.png" id="2_lsy5m"]
@@ -6,7 +6,6 @@
 [ext_resource type="AudioStream" uid="uid://uotgldmx6k8c" path="res://sounds/pasos.mp3" id="3_6okni"]
 [ext_resource type="Texture2D" uid="uid://du8p6042cbe1b" path="res://assets/player/Prota_corre_diagonal_detras_final-Sheet.png" id="3_hy38m"]
 [ext_resource type="Texture2D" uid="uid://y6ohj2bwaap4" path="res://assets/player/Prota_corre_diagonal_frente-Sheet.png" id="4_3mkp6"]
-[ext_resource type="AudioStream" uid="uid://bpdmka0kw000b" path="res://sounds/Peatonal Rush_2.mp3" id="4_shyje"]
 [ext_resource type="Texture2D" uid="uid://de77erb1losur" path="res://assets/player/Prota_corre_DETRAS_final-Sheet.png" id="5_q4dec"]
 [ext_resource type="Texture2D" uid="uid://cdq5csamw7acj" path="res://assets/player/Prota_corrida_frente_-Sheet.png" id="6_bhp37"]
 
@@ -387,7 +386,7 @@ position = Vector2(0, -1)
 sprite_frames = SubResource("SpriteFrames_mwp2c")
 animation = &"idle"
 autoplay = "idle"
-frame_progress = 0.747345
+frame_progress = 0.643825
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 6)
@@ -400,9 +399,3 @@ stream = ExtResource("3_6okni")
 pitch_scale = 0.85
 bus = &"SoundFX"
 parameters/looping = true
-
-[node name="Musica" type="AudioStreamPlayer2D" parent="Audio"]
-position = Vector2(-56, 144)
-stream = ExtResource("4_shyje")
-autoplay = true
-bus = &"Music"

@@ -2,16 +2,18 @@ extends Node
 
 @onready var main: Node2D = $"../../.."
 
-
-
 var total_time=120
 var time= 120
 var stopped = true
 
+func _ready() -> void:
+	Music.stream = load("res://sounds/Peatonal Rush_2.mp3")
+	Music.play()
+
 func _process(delta: float) -> void:
 	if !stopped:
 		time -= delta
-	if time<=0 :
+	if time<=115 :
 		_game_over()
 		
 func reset_timer():

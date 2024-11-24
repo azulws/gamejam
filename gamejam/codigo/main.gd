@@ -19,10 +19,12 @@ func _process(delta):
 func _pause_menu():
 	if paused:
 		pause.hide()
+		Music.stream_paused = false
 		Engine.time_scale=1
 		#musica.play()
 	else:
 		pause.show()
+		Music.stream_paused = true
 		Engine.time_scale=0
 		
 	paused = !paused
@@ -30,6 +32,8 @@ func _pause_menu():
 func _game_over_menu():
 	if game_o ==false:
 		game_over.show()
+		Music.stream = load("res://sounds/Sonido victoria.mp3")
+		Music.play()
 		Engine.time_scale=0
 		
 		game_o = !game_o

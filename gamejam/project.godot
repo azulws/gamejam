@@ -17,7 +17,7 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-PeatonalRush2="*res://sounds/Peatonal Rush_2.mp3"
+Music="*res://sounds/music.tscn"
 
 [display]
 

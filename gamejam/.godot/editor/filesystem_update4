@@ -11,3 +11,7 @@ res://turist.gd
 res://escenas/timer.tscn
 res://codigo/Stopwatch.gd
 res://escenas/Stopwatch.tscn
+res://codigo/main.gd
+res://sounds/cancion_victoria.tscn
+res://sounds/music.tscn
+res://escenas/pause.tscn
