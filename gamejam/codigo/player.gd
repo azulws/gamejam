@@ -1,7 +1,7 @@
 extends CharacterBody2D
 @onready var main: Node2D = $".."
 
-const SPEED = 300.0
+const SPEED = 100.0
 const COLLISION_SLOWDOWN = 0.3
 var slowdown_time = 0.0
 var direction: Vector2 = Vector2.ZERO

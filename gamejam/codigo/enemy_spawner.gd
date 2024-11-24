@@ -1,6 +1,6 @@
 extends Marker2D
 
-@onready var enemy_scene = preload("res://escenas/enemy.tscn")
+@onready var enemy_scene = preload("res://escenas/turist.tscn")
 @onready var main: Node2D = $"../../.."
 
 
