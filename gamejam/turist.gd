@@ -2,9 +2,11 @@ extends "res://codigo/enemy.gd"
 
 # Lista de spritesheets posibles
 var sprites = [
-	load("res://assets/npc/NPC_A-Sheet.png"),
-	load("res://assets/npc/NPC_B-Sheet.png"),
-	load("res://assets/npc/NPC_C-Sheet.png")
+	preload("res://assets/npc/NPC_A-Sheet.png"),
+	preload("res://assets/npc/NPC_B-Sheet.png"),
+	preload("res://assets/npc/NPC_C-Sheet.png"),
+	preload("res://assets/npc/NPC_D-Sheet.png"), 
+	preload("res://assets/npc/NPC_E-Sheet.png")
 ]
 
 @onready var sprite: AnimatedSprite2D = $AnimatedSprite2D
