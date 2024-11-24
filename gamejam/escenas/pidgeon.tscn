@@ -1,0 +1,77 @@
+[gd_scene load_steps=10 format=3 uid="uid://dh3s6yp51mai"]
+
+[ext_resource type="Script" path="res://codigo/pidgeon.gd" id="1_o5r5a"]
+[ext_resource type="Texture2D" uid="uid://cd2tfojnofc7s" path="res://assets/npc/Palomota sprite.png" id="2_cpeob"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pbgn6"]
+atlas = ExtResource("2_cpeob")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bly5b"]
+atlas = ExtResource("2_cpeob")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_to1di"]
+atlas = ExtResource("2_cpeob")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1yasm"]
+atlas = ExtResource("2_cpeob")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wnod3"]
+atlas = ExtResource("2_cpeob")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4ks02"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pbgn6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bly5b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_to1di")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1yasm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wnod3")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_fl0a0"]
+radius = 6.0
+height = 14.1608
+
+[node name="Pidgeon" type="CharacterBody2D"]
+position = Vector2(0, -16)
+collision_mask = 7
+motion_mode = 1
+script = ExtResource("1_o5r5a")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, 11)
+scale = Vector2(0.278455, 0.306084)
+sprite_frames = SubResource("SpriteFrames_4ks02")
+flip_h = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 14)
+scale = Vector2(0.331314, 0.28247)
+shape = SubResource("CapsuleShape2D_fl0a0")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D"]
+position = Vector2(29, 27)
+polygon = PackedVector2Array(-21, -12, -21, -22, -13, -20, -13, -13)
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]
