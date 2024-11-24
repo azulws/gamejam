@@ -9,14 +9,15 @@
 [node name="pause" type="Control"]
 layout_mode = 3
 anchors_preset = 0
+scale = Vector2(0.761647, 0.761647)
 script = ExtResource("1_34rns")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 1
-offset_left = -33.0
-offset_top = -47.0
-offset_right = 589.0
-offset_bottom = 465.0
+offset_left = 6.56472
+offset_top = -74.8378
+offset_right = 628.565
+offset_bottom = 437.162
 scale = Vector2(0.6, 0.6)
 
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
