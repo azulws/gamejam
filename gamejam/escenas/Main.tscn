@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://c1k8jtm1tfs7d"]
+[gd_scene load_steps=12 format=3 uid="uid://c1k8jtm1tfs7d"]
 
 [ext_resource type="Script" path="res://codigo/main.gd" id="1_hpid1"]
 [ext_resource type="PackedScene" uid="uid://domoyeie03bdd" path="res://escenas/Player.tscn" id="2_w732k"]
@@ -10,6 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://h5hk1qhyi6qu" path="res://escenas/win.tscn" id="8_sfnnf"]
 [ext_resource type="PackedScene" uid="uid://hq4qnpivn7fh" path="res://escenas/enemy_spawner.tscn" id="9_wevju"]
 [ext_resource type="PackedScene" uid="uid://b7uxjjsg2i4ch" path="res://escenas/cellphone.tscn" id="10_eqw01"]
+[ext_resource type="PackedScene" uid="uid://bcq4aujnp0nai" path="res://escenas/item_spawner.tscn" id="11_45to2"]
 
 [node name="Main" type="Node2D"]
 y_sort_enabled = true
@@ -75,6 +76,7 @@ scale = Vector2(0.600002, 0.600002)
 
 [node name="win" parent="CanvasLayer" instance=ExtResource("8_sfnnf")]
 visible = false
+z_index = 1
 offset_left = 128.0
 offset_top = 24.0
 offset_right = 128.0
@@ -103,6 +105,9 @@ position = Vector2(104, 152)
 
 [node name="Enemy_spawner5" parent="Jugador/Spawner" instance=ExtResource("9_wevju")]
 position = Vector2(88, 192)
+
+[node name="Item_spawner" parent="Jugador/Spawner" instance=ExtResource("11_45to2")]
+position = Vector2(-113, 76)
 
 [node name="Camera2D2" type="Camera2D" parent="Jugador"]
 position = Vector2(-3, -44)

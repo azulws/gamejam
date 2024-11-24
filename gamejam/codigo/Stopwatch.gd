@@ -37,4 +37,3 @@ func _on_timer_timeout() -> void:
 
 func _game_over():
 	main._game_over_menu()
-

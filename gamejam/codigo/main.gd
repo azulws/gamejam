@@ -41,14 +41,7 @@ func _game_over_menu():
 
 		game_o = !game_o
 
-func _win_menu():
-	if game_w:
-		win.show()
-		Music.stream = load("res://sounds/Cancion victoria.mp3")
-		Music.play()
-		Engine.time_scale=0
 
-	game_w = !game_w
 
 func _reload_level():
 	get_tree().reload_current_scene()
@@ -63,4 +56,3 @@ func _cellphone_menu():
 		cellphone.get_node("VBoxContainer/cellphone_menu").hide()
 
 	cellphone_on = !cellphone_on
-
