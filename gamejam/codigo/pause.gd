@@ -11,4 +11,4 @@ func _on_quit_pressed() -> void:
 
 
 func _on_reset_pressed() -> void:
-	get_tree().reload_current_scene()
+	main._reload_level()

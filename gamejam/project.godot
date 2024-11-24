@@ -15,6 +15,10 @@ run/main_scene="res://escenas/Menu.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+PeatonalRush2="*res://sounds/Peatonal Rush_2.mp3"
+
 [display]
 
 window/size/viewport_width=640

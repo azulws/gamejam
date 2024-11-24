@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=4 uid="uid://c1k8jtm1tfs7d"]
+[gd_scene load_steps=17 format=4 uid="uid://c1k8jtm1tfs7d"]
 
 [ext_resource type="Script" path="res://codigo/main.gd" id="1_hpid1"]
 [ext_resource type="PackedScene" uid="uid://domoyeie03bdd" path="res://escenas/Player.tscn" id="2_w732k"]
@@ -8,15 +8,12 @@
 [ext_resource type="PackedScene" uid="uid://kcxtyqgirktg" path="res://escenas/timer.tscn" id="7_kwjek"]
 [ext_resource type="PackedScene" uid="uid://cclxc6glhvwsm" path="res://escenas/background.tscn" id="8_8ldd4"]
 [ext_resource type="PackedScene" uid="uid://dnk8ejx1hmyyf" path="res://escenas/game_over.tscn" id="8_m8w7f"]
-[ext_resource type="Texture2D" uid="uid://cvtmv4s3p0bd3" path="res://assets/ui/celu vacio (2).png" id="9_6ib3d"]
+[ext_resource type="Texture2D" uid="uid://8owp8op3lp21" path="res://assets/ui/celu_vacio.png" id="9_8cyf2"]
 [ext_resource type="PackedScene" uid="uid://hq4qnpivn7fh" path="res://escenas/enemy_spawner.tscn" id="9_wevju"]
 [ext_resource type="Texture2D" uid="uid://dl7gbgt7tqnhq" path="res://assets/ui/Caracol.png" id="10_u8th7"]
 [ext_resource type="Texture2D" uid="uid://botqp0g2soasj" path="res://assets/ui/Churritos.png" id="11_xf4ui"]
 [ext_resource type="Texture2D" uid="uid://ckh40etjjit53" path="res://assets/ui/Iman faro.png" id="12_8ruxt"]
-[ext_resource type="Texture2D" uid="uid://c03gjss6owgbj" path="res://assets/ui/llavero.png" id="14_b61y2"]
-[ext_resource type="Texture2D" uid="uid://3bneeg1eyyof" path="res://assets/ui/alfajorcito.png" id="15_7qlo0"]
-[ext_resource type="Texture2D" uid="uid://ddpgo4ixlmqpn" path="res://assets/ui/Lobo marino.png" id="15_mqx6b"]
-[ext_resource type="Texture2D" uid="uid://cgylsk1c3jsit" path="res://assets/ui/alfajorcito silueta (1).png" id="16_susrb"]
+[ext_resource type="Texture2D" uid="uid://dp6kkhnwe3xib" path="res://assets/ui/Collar.png" id="13_rlgrj"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bp6tm"]
 texture = ExtResource("3_7cou8")
@@ -44,9 +41,6 @@ terrain_set_0/terrain_0/name = "Terrain 0"
 terrain_set_0/terrain_0/color = Color(0.5, 0.34375, 0.25, 1)
 sources/4 = SubResource("TileSetAtlasSource_bp6tm")
 tile_proxies/coords_level = [[1, Vector2i(0, 0)], [4, Vector2i(0, 0)], [2, Vector2i(0, 0)], [4, Vector2i(1, 0)]]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_7xyhm"]
-load_path = "res://.godot/imported/alfajorcito silueta.png-dfa6dbf26d831c63edaac87deda98049.ctex"
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_hpid1")
@@ -110,46 +104,25 @@ offset_bottom = -24.0
 size_flags_horizontal = 4
 size_flags_vertical = 4
 
-[node name="CeluVacio(2)" type="Sprite2D" parent="Jugador"]
+[node name="CeluVacio" type="Sprite2D" parent="Jugador"]
 position = Vector2(192, -24)
-texture = ExtResource("9_6ib3d")
+texture = ExtResource("9_8cyf2")
 
 [node name="Caracol" type="Sprite2D" parent="Jugador"]
-position = Vector2(168, -40)
+position = Vector2(168, -72)
 texture = ExtResource("10_u8th7")
-offset = Vector2(0, 2.8)
 
 [node name="Churritos" type="Sprite2D" parent="Jugador"]
-position = Vector2(216, -96)
+position = Vector2(216, -72)
 texture = ExtResource("11_xf4ui")
-offset = Vector2(0, 1)
 
 [node name="ImanFaro" type="Sprite2D" parent="Jugador"]
-position = Vector2(216, -40)
+position = Vector2(168, -24)
 texture = ExtResource("12_8ruxt")
 
-[node name="Llavero" type="Sprite2D" parent="Jugador"]
-position = Vector2(168, -96)
-texture = ExtResource("14_b61y2")
-
-[node name="LoboMarino" type="Sprite2D" parent="Jugador"]
-position = Vector2(168, 16)
-texture = ExtResource("15_mqx6b")
-
-[node name="Alfajorcito" type="Sprite2D" parent="Jugador"]
-position = Vector2(216, 16)
-texture = ExtResource("15_7qlo0")
-offset = Vector2(0, 1.5)
-
-[node name="AlfajorcitoSilueta" type="Sprite2D" parent="Jugador"]
-position = Vector2(216, 16)
-texture = SubResource("CompressedTexture2D_7xyhm")
-offset = Vector2(0, 1)
-
-[node name="AlfajorcitoSilueta(1)" type="Sprite2D" parent="Jugador"]
-position = Vector2(216, 16)
-texture = ExtResource("16_susrb")
-offset = Vector2(0, 1.5)
+[node name="Collar" type="Sprite2D" parent="Jugador"]
+position = Vector2(216, -24)
+texture = ExtResource("13_rlgrj")
 
 [node name="limites mapa" type="Node" parent="."]
 

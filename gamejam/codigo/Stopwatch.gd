@@ -10,7 +10,9 @@ var stopped = true
 func _process(delta: float) -> void:
 	if !stopped:
 		time -= delta
-	
+	if time<=125 :
+		_game_over()
+		
 func reset_timer():
 	time= 0.0
 
@@ -29,3 +31,7 @@ func _on_timer_timeout() -> void:
 	main.game_started= true
 	stopped = false
 	return
+
+func _game_over():
+	main._game_over_menu()
+	
