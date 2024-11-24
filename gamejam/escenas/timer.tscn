@@ -19,8 +19,7 @@ StopwatchLabel = NodePath("StopwatchLabel")
 
 [node name="Rounded" type="TextureProgressBar" parent="."]
 layout_mode = 0
-offset_left = 122.0
-offset_right = 250.0
+offset_right = 128.0
 offset_bottom = 128.0
 scale = Vector2(0.64, 0.64)
 rounded = true
@@ -30,10 +29,10 @@ texture_progress = ExtResource("4_gag0g")
 
 [node name="StopwatchLabel" type="Label" parent="."]
 layout_mode = 0
-offset_left = 133.0
-offset_top = 19.0
-offset_right = 242.0
-offset_bottom = 42.0
+offset_left = 10.0
+offset_top = 17.0
+offset_right = 119.0
+offset_bottom = 40.0
 text = "00:00"
 label_settings = SubResource("LabelSettings_x4nke")
 

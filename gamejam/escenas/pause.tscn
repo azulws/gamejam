@@ -1,40 +1,77 @@
-[gd_scene load_steps=2 format=3 uid="uid://sr5llx0htuqr"]
+[gd_scene load_steps=6 format=3 uid="uid://sr5llx0htuqr"]
 
 [ext_resource type="Script" path="res://codigo/pause.gd" id="1_34rns"]
+[ext_resource type="Texture2D" uid="uid://bsxira2oxbi0a" path="res://assets/menu/pauseMenu/menu-caja-peatonalrush.png" id="2_r06jw"]
+[ext_resource type="Texture2D" uid="uid://dnw1ofjnomika" path="res://assets/menu/pauseMenu/boton-continuar.png" id="3_b4qt8"]
+[ext_resource type="Texture2D" uid="uid://c7qyc1qxudep1" path="res://assets/menu/pauseMenu/boton-reiniciar.png" id="4_sdl3f"]
+[ext_resource type="Texture2D" uid="uid://ceuncyqer5e33" path="res://assets/menu/pauseMenu/boton-salir.png" id="5_igv8f"]
 
 [node name="pause" type="Control"]
 layout_mode = 3
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
+anchors_preset = 0
 script = ExtResource("1_34rns")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
-layout_mode = 0
-offset_left = 111.0
-offset_top = 48.0
-offset_right = 195.0
-offset_bottom = 114.0
+layout_mode = 1
+offset_left = -33.0
+offset_top = -47.0
+offset_right = 589.0
+offset_bottom = 465.0
+scale = Vector2(0.6, 0.6)
 
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
 layout_mode = 2
 
-[node name="continue" type="Button" parent="MarginContainer/VBoxContainer"]
+[node name="background" type="TextureRect" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
-text = "CONTINUE"
+texture = ExtResource("2_r06jw")
 
-[node name="reset" type="Button" parent="MarginContainer/VBoxContainer"]
-layout_mode = 2
-text = "RESET"
+[node name="continue" type="TextureButton" parent="MarginContainer/VBoxContainer/background"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -93.0
+offset_top = -107.5
+offset_right = 93.0
+offset_bottom = -40.5
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("3_b4qt8")
 
-[node name="quit" type="Button" parent="MarginContainer/VBoxContainer"]
-layout_mode = 2
-text = "QUIT"
+[node name="reset" type="TextureButton" parent="MarginContainer/VBoxContainer/background"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -93.0
+offset_top = -23.5
+offset_right = 93.0
+offset_bottom = 43.5
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("4_sdl3f")
 
-[connection signal="pressed" from="MarginContainer/VBoxContainer/continue" to="." method="_on_continuar_pressed"]
-[connection signal="pressed" from="MarginContainer/VBoxContainer/continue" to="." method="_on_continue_pressed"]
-[connection signal="pressed" from="MarginContainer/VBoxContainer/reset" to="." method="_on_reset_pressed"]
-[connection signal="pressed" from="MarginContainer/VBoxContainer/quit" to="." method="_on_quit_pressed"]
-[connection signal="pressed" from="MarginContainer/VBoxContainer/quit" to="." method="_on_salir_pressed"]
+[node name="quit" type="TextureButton" parent="MarginContainer/VBoxContainer/background"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -93.0
+offset_top = 59.8333
+offset_right = 73.0
+offset_bottom = 126.833
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(1.1134, 1)
+texture_normal = ExtResource("5_igv8f")
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/background/continue" to="." method="_on_continue_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/background/reset" to="." method="_on_reset_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/background/quit" to="." method="_on_quit_pressed"]

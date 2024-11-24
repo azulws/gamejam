@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ckh40etjjit53"
-path="res://.godot/imported/Iman faro.png-68336fb67f12b5cad3f15bcd2f09105c.ctex"
+uid="uid://cxpi1s2nfpr6m"
+path="res://.godot/imported/boton-reiniciar.png-5de3a7a4eaac41dc00ee040fa2eefd91.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/ui/Iman faro.png"
-dest_files=["res://.godot/imported/Iman faro.png-68336fb67f12b5cad3f15bcd2f09105c.ctex"]
+source_file="res://assets/menu/gameOverMenu/boton-reiniciar.png"
+dest_files=["res://.godot/imported/boton-reiniciar.png-5de3a7a4eaac41dc00ee040fa2eefd91.ctex"]
 
 [params]
 

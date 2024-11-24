@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dp6kkhnwe3xib"
-path="res://.godot/imported/Collar.png-b3b7ea9bcc07944c10143ea84891450a.ctex"
+uid="uid://2dar7hier2lv"
+path="res://.godot/imported/boton-salir.png-cc82d201e4b4102b8626cbd5426b2bd3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/ui/Collar.png"
-dest_files=["res://.godot/imported/Collar.png-b3b7ea9bcc07944c10143ea84891450a.ctex"]
+source_file="res://assets/menu/startMenu/boton-salir.png"
+dest_files=["res://.godot/imported/boton-salir.png-cc82d201e4b4102b8626cbd5426b2bd3.ctex"]
 
 [params]
 

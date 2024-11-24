@@ -1,6 +1,9 @@
-[gd_scene load_steps=2 format=3 uid="uid://dnk8ejx1hmyyf"]
+[gd_scene load_steps=5 format=3 uid="uid://dnk8ejx1hmyyf"]
 
 [ext_resource type="Script" path="res://codigo/game_over.gd" id="1_lcts2"]
+[ext_resource type="Texture2D" uid="uid://cc5nnu1r424yn" path="res://assets/menu/gameOverMenu/menu-derrota-peatonalrush.png" id="2_gy8j4"]
+[ext_resource type="Texture2D" uid="uid://cxpi1s2nfpr6m" path="res://assets/menu/gameOverMenu/boton-reiniciar.png" id="3_hkeyt"]
+[ext_resource type="Texture2D" uid="uid://md7db50017xf" path="res://assets/menu/gameOverMenu/boton-salir.png" id="4_1twnw"]
 
 [node name="GameOver" type="Control"]
 layout_mode = 3
@@ -13,21 +16,31 @@ script = ExtResource("1_lcts2")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 0
-offset_top = 1.0
-offset_right = 73.0
-offset_bottom = 71.0
+offset_left = -13.0
+offset_top = -79.0
+offset_right = 433.0
+offset_bottom = 377.0
 
-[node name="Label" type="Label" parent="VBoxContainer"]
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer"]
 layout_mode = 2
-text = "PERDISTE"
+texture = ExtResource("2_gy8j4")
 
-[node name="restart" type="Button" parent="VBoxContainer"]
-layout_mode = 2
-text = "RESET"
+[node name="restart" type="TextureButton" parent="VBoxContainer/TextureRect"]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 334.0
+offset_right = 209.0
+offset_bottom = 401.0
+texture_normal = ExtResource("3_hkeyt")
 
-[node name="quit" type="Button" parent="VBoxContainer"]
-layout_mode = 2
-text = "QUIT"
+[node name="quit" type="TextureButton" parent="VBoxContainer/TextureRect"]
+layout_mode = 0
+offset_left = 244.0
+offset_top = 335.0
+offset_right = 410.0
+offset_bottom = 402.0
+scale = Vector2(1.12, 1)
+texture_normal = ExtResource("4_1twnw")
 
-[connection signal="pressed" from="VBoxContainer/restart" to="." method="_on_restart_pressed"]
-[connection signal="pressed" from="VBoxContainer/quit" to="." method="_on_quit_pressed"]
+[connection signal="pressed" from="VBoxContainer/TextureRect/restart" to="." method="_on_restart_pressed"]
+[connection signal="pressed" from="VBoxContainer/TextureRect/quit" to="." method="_on_quit_pressed"]

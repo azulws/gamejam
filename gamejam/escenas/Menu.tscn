@@ -1,6 +1,9 @@
-[gd_scene load_steps=2 format=3 uid="uid://bgavg172fs7oj"]
+[gd_scene load_steps=5 format=3 uid="uid://bgavg172fs7oj"]
 
 [ext_resource type="Script" path="res://codigo/menu.gd" id="1_c731v"]
+[ext_resource type="Texture2D" uid="uid://dg3fns64eghp0" path="res://assets/menu/startMenu/menu-sin-botones.png" id="2_ov67a"]
+[ext_resource type="Texture2D" uid="uid://l7if0ayyc3jo" path="res://assets/menu/startMenu/boton-jugar.png" id="3_4ay3h"]
+[ext_resource type="Texture2D" uid="uid://2dar7hier2lv" path="res://assets/menu/startMenu/boton-salir.png" id="4_rrrgw"]
 
 [node name="Menu" type="Control"]
 layout_mode = 3
@@ -13,32 +16,31 @@ script = ExtResource("1_c731v")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -380.5
-offset_top = -309.5
-offset_right = 380.5
-offset_bottom = 309.5
-grow_horizontal = 2
-grow_vertical = 2
+offset_left = 112.0
+offset_top = 8.0
+offset_right = 733.0
+offset_bottom = 535.0
+scale = Vector2(0.65308, 0.65308)
 
-[node name="Start" type="Button" parent="VBoxContainer"]
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer"]
 layout_mode = 2
-size_flags_horizontal = 4
-size_flags_vertical = 6
-theme_override_constants/icon_max_width = 0
-theme_override_font_sizes/font_size = 100
-text = "jugar"
+texture = ExtResource("2_ov67a")
 
-[node name="Quit" type="Button" parent="VBoxContainer"]
-layout_mode = 2
-size_flags_horizontal = 4
-size_flags_vertical = 6
-theme_override_font_sizes/font_size = 100
-text = "salir"
+[node name="Start2" type="TextureButton" parent="VBoxContainer/TextureRect"]
+layout_mode = 0
+offset_left = 416.488
+offset_top = 159.245
+offset_right = 582.488
+offset_bottom = 226.245
+texture_normal = ExtResource("3_4ay3h")
 
-[connection signal="pressed" from="VBoxContainer/Start" to="." method="_on_button_pressed"]
-[connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_button_2_pressed"]
+[node name="Quit2" type="TextureButton" parent="VBoxContainer/TextureRect"]
+layout_mode = 0
+offset_left = 416.488
+offset_top = 257.242
+offset_right = 582.488
+offset_bottom = 324.242
+texture_normal = ExtResource("4_rrrgw")
+
+[connection signal="pressed" from="VBoxContainer/TextureRect/Start2" to="." method="_on_start_2_pressed"]
+[connection signal="pressed" from="VBoxContainer/TextureRect/Quit2" to="." method="_on_quit_2_pressed"]

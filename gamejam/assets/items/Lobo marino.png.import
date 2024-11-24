@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c03gjss6owgbj"
-path="res://.godot/imported/llavero.png-8029456271a48785857bfaee95ff18ec.ctex"
+uid="uid://ddpgo4ixlmqpn"
+path="res://.godot/imported/Lobo marino.png-801ba4e78f92cc30dbe0444034ec844d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/ui/llavero.png"
-dest_files=["res://.godot/imported/llavero.png-8029456271a48785857bfaee95ff18ec.ctex"]
+source_file="res://assets/items/Lobo marino.png"
+dest_files=["res://.godot/imported/Lobo marino.png-801ba4e78f92cc30dbe0444034ec844d.ctex"]
 
 [params]
 

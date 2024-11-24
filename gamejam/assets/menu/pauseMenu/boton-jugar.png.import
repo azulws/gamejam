@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dl7gbgt7tqnhq"
-path="res://.godot/imported/Caracol.png-3d5165db56fc52e173500aa7c1ec6460.ctex"
+uid="uid://dbinym88kfqmc"
+path="res://.godot/imported/boton-jugar.png-1e2ac747cf00a17c3a7d2b80c928b1c7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/ui/Caracol.png"
-dest_files=["res://.godot/imported/Caracol.png-3d5165db56fc52e173500aa7c1ec6460.ctex"]
+source_file="res://assets/menu/pauseMenu/boton-jugar.png"
+dest_files=["res://.godot/imported/boton-jugar.png-1e2ac747cf00a17c3a7d2b80c928b1c7.ctex"]
 
 [params]
 
