@@ -59,7 +59,6 @@ func _get_random_spritesheet() -> SpriteFrames:
 
 	# Crea un nuevo objeto SpriteFrames
 	var sprite_frames = SpriteFrames.new()
-	sprite_frames.add_animation("default")
 	sprite_frames.set_animation_loop("default", true)
 
 	# Tamaño de cada celda del spritesheet

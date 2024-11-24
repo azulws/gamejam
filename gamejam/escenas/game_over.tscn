@@ -12,14 +12,16 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+scale = Vector2(0.600001, 0.600001)
 script = ExtResource("1_lcts2")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 0
-offset_left = -13.0
-offset_top = -79.0
-offset_right = 433.0
-offset_bottom = 377.0
+offset_left = -190.0
+offset_top = -318.333
+offset_right = 256.0
+offset_bottom = 137.667
+scale = Vector2(0.8, 0.8)
 
 [node name="TextureRect" type="TextureRect" parent="VBoxContainer"]
 layout_mode = 2
@@ -27,19 +29,19 @@ texture = ExtResource("2_gy8j4")
 
 [node name="restart" type="TextureButton" parent="VBoxContainer/TextureRect"]
 layout_mode = 0
-offset_left = 23.0
-offset_top = 334.0
-offset_right = 209.0
-offset_bottom = 401.0
+offset_left = 131.25
+offset_top = 304.166
+offset_right = 317.25
+offset_bottom = 371.166
 texture_normal = ExtResource("3_hkeyt")
 
 [node name="quit" type="TextureButton" parent="VBoxContainer/TextureRect"]
 layout_mode = 0
-offset_left = 244.0
-offset_top = 335.0
-offset_right = 410.0
-offset_bottom = 402.0
-scale = Vector2(1.12, 1)
+offset_left = 133.333
+offset_top = 372.916
+offset_right = 299.333
+offset_bottom = 439.916
+scale = Vector2(1.08333, 1.08333)
 texture_normal = ExtResource("4_1twnw")
 
 [connection signal="pressed" from="VBoxContainer/TextureRect/restart" to="." method="_on_restart_pressed"]

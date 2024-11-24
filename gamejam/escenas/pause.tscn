@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://ceuncyqer5e33" path="res://assets/menu/pauseMenu/boton-salir.png" id="5_igv8f"]
 
 [node name="pause" type="Control"]
+y_sort_enabled = true
 layout_mode = 3
 anchors_preset = 0
 scale = Vector2(0.761647, 0.761647)

@@ -1,8 +1,9 @@
-[gd_scene load_steps=10 format=3 uid="uid://c1k8jtm1tfs7d"]
+[gd_scene load_steps=11 format=3 uid="uid://c1k8jtm1tfs7d"]
 
 [ext_resource type="Script" path="res://codigo/main.gd" id="1_hpid1"]
 [ext_resource type="PackedScene" uid="uid://domoyeie03bdd" path="res://escenas/Player.tscn" id="2_w732k"]
 [ext_resource type="PackedScene" uid="uid://bkqxjv25p26tt" path="res://escenas/limiteMapa.tscn" id="3_0mqo2"]
+[ext_resource type="PackedScene" uid="uid://1daia7yxaqi0" path="res://escenas/hud.tscn" id="3_cqre4"]
 [ext_resource type="PackedScene" uid="uid://sr5llx0htuqr" path="res://escenas/pause.tscn" id="6_lkh8n"]
 [ext_resource type="PackedScene" uid="uid://kcxtyqgirktg" path="res://escenas/timer.tscn" id="7_kwjek"]
 [ext_resource type="PackedScene" uid="uid://cclxc6glhvwsm" path="res://escenas/background.tscn" id="8_8ldd4"]
@@ -13,6 +14,10 @@
 [node name="Main" type="Node2D"]
 y_sort_enabled = true
 script = ExtResource("1_hpid1")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="HUD" parent="CanvasLayer" instance=ExtResource("3_cqre4")]
 
 [node name="Map" type="Node2D" parent="."]
 
@@ -39,25 +44,8 @@ position = Vector2(376, 56)
 collision_mask = 13
 motion_mode = 1
 
-[node name="Timer" parent="Jugador" instance=ExtResource("7_kwjek")]
-z_index = 1
-offset_left = -224.0
-offset_top = -168.0
-offset_right = -224.0
-offset_bottom = -168.0
-
-[node name="Cellphone" parent="Jugador" instance=ExtResource("10_eqw01")]
-z_index = 1
-offset_left = -99.0
-offset_top = -164.0
-offset_right = -99.0
-offset_bottom = -164.0
-metadata/_edit_use_anchors_ = true
-
 [node name="pause" parent="Jugador" instance=ExtResource("6_lkh8n")]
 visible = false
-z_index = 1
-y_sort_enabled = false
 offset_left = -161.0
 offset_top = -84.0
 offset_right = -161.0
@@ -67,7 +55,6 @@ size_flags_vertical = 4
 
 [node name="GameOver" parent="Jugador" instance=ExtResource("8_m8w7f")]
 visible = false
-z_index = 1
 offset_left = -8.0
 offset_top = 40.0
 offset_right = -8.0
@@ -97,3 +84,16 @@ position = Vector2(-3, -44)
 limit_top = -144
 limit_right = 1024
 limit_bottom = 272
+
+[node name="Timer" parent="Jugador" instance=ExtResource("7_kwjek")]
+offset_left = -224.0
+offset_top = -168.0
+offset_right = -224.0
+offset_bottom = -168.0
+
+[node name="Cellphone" parent="Jugador" instance=ExtResource("10_eqw01")]
+offset_left = -99.0
+offset_top = -164.0
+offset_right = -99.0
+offset_bottom = -164.0
+metadata/_edit_use_anchors_ = true

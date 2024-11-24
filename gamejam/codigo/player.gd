@@ -1,4 +1,5 @@
 extends CharacterBody2D
+
 @onready var main: Node2D = $".."
 
 const SPEED = 100.0

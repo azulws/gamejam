@@ -14,7 +14,9 @@ offset_right = 40.0
 offset_bottom = 40.0
 texture = ExtResource("1_f8afe")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 light_mask = 4
 visibility_layer = 4
 position = Vector2(20, 24)

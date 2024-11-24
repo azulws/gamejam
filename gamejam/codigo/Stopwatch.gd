@@ -3,6 +3,7 @@ extends Node
 @onready var main: Node2D = $"../../.."
 
 
+
 var total_time=140
 var time= 140
 var stopped = true
