@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cdrl770e1jas6"
-path="res://.godot/imported/llavero.png-f806932157f36e2a33edf32aea98ffb9.ctex"
+uid="uid://dedjxx5kalrms"
+path="res://.godot/imported/Llavero-Sheet.png-f46e31533c35610e1e70ecfd4134ebf1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/items/llavero.png"
-dest_files=["res://.godot/imported/llavero.png-f806932157f36e2a33edf32aea98ffb9.ctex"]
+source_file="res://assets/items/Llavero-Sheet.png"
+dest_files=["res://.godot/imported/Llavero-Sheet.png-f46e31533c35610e1e70ecfd4134ebf1.ctex"]
 
 [params]
 

@@ -1,23 +1,27 @@
 [gd_scene load_steps=4 format=3 uid="uid://dqbh3f7ypj17"]
 
-[ext_resource type="Texture2D" uid="uid://ckh40etjjit53" path="res://assets/items/Iman faro.png" id="1_f8afe"]
 [ext_resource type="Script" path="res://item.gd" id="1_meyoi"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_whoqw"]
+resource_local_to_scene = true
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_bm774"]
 radius = 8.0
+height = 16.0
 
 [node name="Item" type="Node2D"]
 script = ExtResource("1_meyoi")
 
-[node name="TextureRect" type="TextureRect" parent="."]
-offset_right = 40.0
-offset_bottom = 40.0
-texture = ExtResource("1_f8afe")
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_whoqw")
 
 [node name="Area2D" type="Area2D" parent="."]
+collision_layer = 16
+collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 light_mask = 4
 visibility_layer = 4
-position = Vector2(20, 24)
 shape = SubResource("CapsuleShape2D_bm774")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

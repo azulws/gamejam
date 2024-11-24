@@ -13,7 +13,7 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	if !stopped:
 		time -= delta
-	if time<=115 :
+	if time<=0 :
 		_game_over()
 		
 func reset_timer():

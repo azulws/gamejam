@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cdrl770e1jas6"
-path="res://.godot/imported/llavero.png-f806932157f36e2a33edf32aea98ffb9.ctex"
+uid="uid://cuxbv4tfeiplh"
+path="res://.godot/imported/churritos sombra.png-6f4011564c7e3779f83887afc17df3b9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/items/llavero.png"
-dest_files=["res://.godot/imported/llavero.png-f806932157f36e2a33edf32aea98ffb9.ctex"]
+source_file="res://assets/items/Siluetas/churritos sombra.png"
+dest_files=["res://.godot/imported/churritos sombra.png-6f4011564c7e3779f83887afc17df3b9.ctex"]
 
 [params]
 
