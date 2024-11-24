@@ -4,14 +4,14 @@ extends Node
 
 
 
-var total_time=140
-var time= 140
+var total_time=120
+var time= 120
 var stopped = true
 
 func _process(delta: float) -> void:
 	if !stopped:
 		time -= delta
-	if time<=125 :
+	if time<=0 :
 		_game_over()
 		
 func reset_timer():

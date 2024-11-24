@@ -67,7 +67,7 @@ func _process(delta: float) -> void:
 		if slowdown_time <= 0.0:
 			velocity = direction * SPEED
 			if colliding:
-				slowdown_time = 1.5
+				slowdown_time = 1.0
 		else:
 			velocity = direction * SPEED * COLLISION_SLOWDOWN
 			slowdown_time = max(slowdown_time - delta, 0.0) 

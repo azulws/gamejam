@@ -8,3 +8,6 @@ res://escenas/background.tscn
 res://escenas/Player.tscn
 res://codigo/player.gd
 res://turist.gd
+res://escenas/timer.tscn
+res://codigo/Stopwatch.gd
+res://escenas/Stopwatch.tscn
