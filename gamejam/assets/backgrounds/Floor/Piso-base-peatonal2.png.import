@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dv8b25i32vxbd"
-path="res://.godot/imported/Piso-base-peatonal.png-445c334af75b96b413d243b4da076118.ctex"
+uid="uid://dpyhwvvviru05"
+path="res://.godot/imported/Piso-base-peatonal2.png-cfe14a0997521c293b17654846f10a0d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/map/Piso-base-peatonal.png"
-dest_files=["res://.godot/imported/Piso-base-peatonal.png-445c334af75b96b413d243b4da076118.ctex"]
+source_file="res://assets/backgrounds/Floor/Piso-base-peatonal2.png"
+dest_files=["res://.godot/imported/Piso-base-peatonal2.png-cfe14a0997521c293b17654846f10a0d.ctex"]
 
 [params]
 

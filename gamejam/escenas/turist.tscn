@@ -5,16 +5,7 @@
 [sub_resource type="SpriteFrames" id="SpriteFrames_y2dni"]
 resource_local_to_scene = true
 animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": null
-}, {
-"duration": 1.0,
-"texture": null
-}, {
-"duration": 1.0,
-"texture": null
-}],
+"frames": [],
 "loop": true,
 "name": &"Run",
 "speed": 10.0
@@ -22,11 +13,11 @@ animations = [{
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_fl0a0"]
 radius = 6.0
-height = 18.0
+height = 14.1608
 
 [node name="Turist" type="CharacterBody2D"]
 position = Vector2(0, -16)
-collision_mask = 3
+collision_mask = 7
 motion_mode = 1
 script = ExtResource("1_uc38h")
 

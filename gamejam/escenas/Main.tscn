@@ -18,6 +18,7 @@ script = ExtResource("3_6budw")
 
 [node name="Jugador" parent="." instance=ExtResource("2_w732k")]
 position = Vector2(376, 56)
+collision_mask = 13
 motion_mode = 1
 
 [node name="pause" parent="Jugador" instance=ExtResource("6_lkh8n")]
@@ -37,27 +38,33 @@ offset_bottom = -176.0
 metadata/_edit_use_anchors_ = true
 
 [node name="Node2D" type="Node2D" parent="Jugador"]
-position = Vector2(-575, -68)
-
-[node name="Enemy_spawner" parent="Jugador/Node2D" instance=ExtResource("9_wevju")]
-position = Vector2(200, 40)
+position = Vector2(-528, -96)
 
 [node name="Enemy_spawner2" parent="Jugador/Node2D" instance=ExtResource("9_wevju")]
-position = Vector2(160, 64)
+position = Vector2(136, 32)
 
 [node name="Enemy_spawner3" parent="Jugador/Node2D" instance=ExtResource("9_wevju")]
-position = Vector2(136, 104)
+position = Vector2(136, 64)
 
 [node name="Enemy_spawner4" parent="Jugador/Node2D" instance=ExtResource("9_wevju")]
-position = Vector2(104, 152)
+position = Vector2(136, 104)
 
 [node name="Enemy_spawner5" parent="Jugador/Node2D" instance=ExtResource("9_wevju")]
-position = Vector2(88, 192)
+position = Vector2(136, 144)
 
 [node name="limites mapa" type="Node" parent="."]
 
 [node name="limite inferior" parent="limites mapa" instance=ExtResource("3_0mqo2")]
-position = Vector2(0, 256)
+position = Vector2(0, 128)
 rotation = 3.14159
+collision_layer = 4
 
 [node name="limite superior" parent="limites mapa" instance=ExtResource("3_0mqo2")]
+position = Vector2(0, -24)
+collision_layer = 4
+
+[node name="limite posterior" parent="limites mapa" instance=ExtResource("3_0mqo2")]
+position = Vector2(448, 64)
+rotation = 1.57079
+collision_layer = 8
+collision_mask = 2

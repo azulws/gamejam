@@ -1,12 +1,12 @@
-res://assets/player
-res://codigo
-res://assets
+res://assets/backgrounds/Floor
 res://
-<<<<<<< Updated upstream
+res://assets
+res://codigo
 res://escenas
+res://assets/npc
+res://assets/player
+<<<<<<< Updated upstream
 res://sounds
 =======
-res://assets/map
-res://escenas
 res://sounds
 >>>>>>> Stashed changes

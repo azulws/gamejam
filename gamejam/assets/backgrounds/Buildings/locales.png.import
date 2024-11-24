@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dqpwhrsvh3m8h"
-path="res://.godot/imported/Palomota.png-23e8a7b553429dff8039629055276296.ctex"
+uid="uid://gq3q8jore52b"
+path="res://.godot/imported/locales.png-d48a658ba55c1bfd5f80df56a86ea794.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/npc/Palomota.png"
-dest_files=["res://.godot/imported/Palomota.png-23e8a7b553429dff8039629055276296.ctex"]
+source_file="res://assets/backgrounds/Buildings/locales.png"
+dest_files=["res://.godot/imported/locales.png-d48a658ba55c1bfd5f80df56a86ea794.ctex"]
 
 [params]
 

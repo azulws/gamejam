@@ -14,17 +14,3 @@ func _on_area_2d_body_entered(body: Node2D) -> void:
 func _on_area_2d_body_exited(body: Node2D) -> void:
 	# Decrementa el contador de colisiones
 	colliding -= 1
-
-func _pingpong(delta: float) -> void:
-	direction.y = 1
-		
-	if colliding <= 0:
-		if position.y < 20 or position.y > 150:
-			direction.y *= -1
-		velocity = direction.normalized() * SPEED
-	else: 
-		colliding = 0
-		direction.y *= -1
-		velocity = direction.normalized() * SPEED
-	move_and_collide(velocity*delta)
-	

@@ -1,14 +1,14 @@
+TileMapLayer
+Parallax2D
+Node2D
 AnimatedSprite2D
 RigidBody2D
 CharacterBody2D
-Node2D
 AudioStreamPlayer2D
 RayCast2D
 Marker2D
 AudioStreamPlayer2D
 Sprite2D
-Parallax2D
 Timer
 Label
 Node
-Panel

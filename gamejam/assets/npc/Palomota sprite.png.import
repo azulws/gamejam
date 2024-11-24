@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bt27kbh7lbpqm"
-path="res://.godot/imported/Piso-arriba-peatonal.png-70828bc7a3de76bd921e461d68a113bf.ctex"
+uid="uid://cd2tfojnofc7s"
+path="res://.godot/imported/Palomota sprite.png-8f570aecfbe2abaf11271026a8217197.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/map/Piso-arriba-peatonal.png"
-dest_files=["res://.godot/imported/Piso-arriba-peatonal.png-70828bc7a3de76bd921e461d68a113bf.ctex"]
+source_file="res://assets/npc/Palomota sprite.png"
+dest_files=["res://.godot/imported/Palomota sprite.png-8f570aecfbe2abaf11271026a8217197.ctex"]
 
 [params]
 

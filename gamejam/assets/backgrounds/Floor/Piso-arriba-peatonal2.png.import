@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://od6fd4wn0ibb"
-path="res://.godot/imported/Piso-arriba-peatonal.png-a262b4b348e0a0afa078028e4e507843.ctex"
+uid="uid://bwibroubk2ppj"
+path="res://.godot/imported/Piso-arriba-peatonal2.png-2bd76f4e61f800f73ad2d90a5888955f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Piso-arriba-peatonal.png"
-dest_files=["res://.godot/imported/Piso-arriba-peatonal.png-a262b4b348e0a0afa078028e4e507843.ctex"]
+source_file="res://assets/backgrounds/Floor/Piso-arriba-peatonal2.png"
+dest_files=["res://.godot/imported/Piso-arriba-peatonal2.png-2bd76f4e61f800f73ad2d90a5888955f.ctex"]
 
 [params]
 
