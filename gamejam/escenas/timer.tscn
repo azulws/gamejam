@@ -1,8 +1,17 @@
-[gd_scene load_steps=3 format=3 uid="uid://kcxtyqgirktg"]
+[gd_scene load_steps=7 format=3 uid="uid://kcxtyqgirktg"]
 
 [ext_resource type="Script" path="res://codigo/timer.gd" id="1_51nrt"]
+[ext_resource type="Texture2D" uid="uid://bjxf2et2rhgbb" path="res://assets/ui/luna_v2.png" id="2_0vqwp"]
+[ext_resource type="PackedScene" uid="uid://iu2rctpjbsu5" path="res://escenas/Stopwatch.tscn" id="2_7egsr"]
+[ext_resource type="FontFile" uid="uid://dq0lqeaft1w3a" path="res://assets/fonts/Pixelate-Regular.ttf" id="4_bf7b8"]
+[ext_resource type="Texture2D" uid="uid://bphvg131yovss" path="res://assets/ui/Sol.png" id="4_gag0g"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_x4nke"]
+font = ExtResource("4_bf7b8")
+font_size = 20
+font_color = Color(0.89, 0.861817, 0.801, 1)
+outline_size = 2
+outline_color = Color(0.173848, 0.109568, 0.0537205, 1)
 
 [node name="Timer" type="Control" node_paths=PackedStringArray("StopwatchLabel")]
 layout_mode = 3
@@ -14,10 +23,26 @@ grow_vertical = 2
 script = ExtResource("1_51nrt")
 StopwatchLabel = NodePath("StopwatchLabel")
 
+[node name="Rounded" type="TextureProgressBar" parent="."]
+layout_mode = 0
+offset_right = 128.0
+offset_bottom = 128.0
+scale = Vector2(0.64, 0.64)
+rounded = true
+fill_mode = 5
+texture_under = ExtResource("2_0vqwp")
+texture_progress = ExtResource("4_gag0g")
+
 [node name="StopwatchLabel" type="Label" parent="."]
 layout_mode = 0
-offset_left = 126.0
-offset_right = 235.0
-offset_bottom = 23.0
-text = "00:00:000"
+offset_left = 7.0
+offset_top = 21.0
+offset_right = 57.0
+offset_bottom = 44.0
+scale = Vector2(0.8, 0.8)
+text = "00:00"
 label_settings = SubResource("LabelSettings_x4nke")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Stopwatch" parent="." instance=ExtResource("2_7egsr")]

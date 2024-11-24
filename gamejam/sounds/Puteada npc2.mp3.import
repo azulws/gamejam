@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bjimu8eoovi6y"
+path="res://.godot/imported/Puteada npc2.mp3-06daffffa45fa1f5634fbd21e58e1709.mp3str"
+
+[deps]
+
+source_file="res://sounds/Puteada npc2.mp3"
+dest_files=["res://.godot/imported/Puteada npc2.mp3-06daffffa45fa1f5634fbd21e58e1709.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

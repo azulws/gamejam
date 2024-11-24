@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://j4ksedn2l7lx"
+path="res://.godot/imported/Sonido Victoria.mp3-e1306e6f0e0e67eed50e3dba103b0549.mp3str"
+
+[deps]
+
+source_file="res://sounds/Sonido Victoria.mp3"
+dest_files=["res://.godot/imported/Sonido Victoria.mp3-e1306e6f0e0e67eed50e3dba103b0549.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,48 @@
+[gd_scene load_steps=5 format=3 uid="uid://dnk8ejx1hmyyf"]
+
+[ext_resource type="Script" path="res://codigo/game_over.gd" id="1_lcts2"]
+[ext_resource type="Texture2D" uid="uid://cc5nnu1r424yn" path="res://assets/menu/gameOverMenu/menu-derrota-peatonalrush.png" id="2_gy8j4"]
+[ext_resource type="Texture2D" uid="uid://cxpi1s2nfpr6m" path="res://assets/menu/gameOverMenu/boton-reiniciar.png" id="3_hkeyt"]
+[ext_resource type="Texture2D" uid="uid://md7db50017xf" path="res://assets/menu/gameOverMenu/boton-salir.png" id="4_1twnw"]
+
+[node name="GameOver" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.600001, 0.600001)
+script = ExtResource("1_lcts2")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = -190.0
+offset_top = -318.333
+offset_right = 256.0
+offset_bottom = 137.667
+scale = Vector2(0.8, 0.8)
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer"]
+layout_mode = 2
+texture = ExtResource("2_gy8j4")
+
+[node name="restart" type="TextureButton" parent="VBoxContainer/TextureRect"]
+layout_mode = 0
+offset_left = 131.25
+offset_top = 304.166
+offset_right = 317.25
+offset_bottom = 371.166
+texture_normal = ExtResource("3_hkeyt")
+
+[node name="quit" type="TextureButton" parent="VBoxContainer/TextureRect"]
+layout_mode = 0
+offset_left = 133.333
+offset_top = 372.916
+offset_right = 299.333
+offset_bottom = 439.916
+scale = Vector2(1.08333, 1.08333)
+texture_normal = ExtResource("4_1twnw")
+
+[connection signal="pressed" from="VBoxContainer/TextureRect/restart" to="." method="_on_restart_pressed"]
+[connection signal="pressed" from="VBoxContainer/TextureRect/quit" to="." method="_on_quit_pressed"]

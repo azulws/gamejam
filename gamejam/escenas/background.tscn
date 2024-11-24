@@ -1,37 +1,297 @@
-[gd_scene load_steps=5 format=3 uid="uid://cclxc6glhvwsm"]
+[gd_scene load_steps=32 format=4 uid="uid://cclxc6glhvwsm"]
 
-[ext_resource type="Texture2D" uid="uid://83nhcouwgsjl" path="res://assets/Fondo croto para probar/Fondo base.png" id="1_6b66u"]
-[ext_resource type="Texture2D" uid="uid://cpqc8vcqqidis" path="res://assets/Fondo croto para probar/Nubes crotas.png" id="2_uxub1"]
-[ext_resource type="Texture2D" uid="uid://th20n6wk3phl" path="res://assets/Fondo croto para probar/edificios 1 ponele.png" id="3_bo45c"]
-[ext_resource type="Texture2D" uid="uid://whgrusc6i70v" path="res://assets/Fondo croto para probar/edificios 2 ponele.png" id="4_vym3v"]
+[ext_resource type="Texture2D" uid="uid://bb02e7x3r4mxc" path="res://assets/backgrounds/Day/fondo-base-cielo-dia.png" id="1_wot77"]
+[ext_resource type="Texture2D" uid="uid://b842jnljtb2oh" path="res://assets/backgrounds/Day/fondo-base-dia-cielo-capa1.png" id="2_lg6rj"]
+[ext_resource type="Texture2D" uid="uid://ogg2dn5nnh14" path="res://assets/backgrounds/Day/fondo-base-dia-cielo-capa2.png" id="3_cx3py"]
+[ext_resource type="Texture2D" uid="uid://dh166ehahsctk" path="res://assets/backgrounds/Day/fondo-base-dia-cielo-capa3.png" id="4_g84qe"]
+[ext_resource type="Texture2D" uid="uid://cseqsptrqwspg" path="res://assets/backgrounds/Day/fondo-base-dia-cielo-capa4.png" id="5_8o5vl"]
+[ext_resource type="Texture2D" uid="uid://ditcmsytqfgla" path="res://assets/backgrounds/Day/fondo-base-dia-edificios1.png" id="6_prcor"]
+[ext_resource type="Texture2D" uid="uid://cmhswm3xl3v8i" path="res://assets/backgrounds/Day/fondo-base-dia-edificios2.png" id="7_8oesq"]
+[ext_resource type="Texture2D" uid="uid://do2xvckryqgbp" path="res://assets/backgrounds/Sunset/Fondo-base-cielo-atardecer-capa1.png" id="8_qwu2n"]
+[ext_resource type="Texture2D" uid="uid://8ruxufxjk2kd" path="res://assets/backgrounds/Sunset/Fondo-base-cielo-atardecer-capa2.png" id="9_uec4d"]
+[ext_resource type="Texture2D" uid="uid://c2kl5lsa2vwyk" path="res://assets/backgrounds/Sunset/Fondo-base-cielo-atardecer-capa3.png" id="10_at4v8"]
+[ext_resource type="Texture2D" uid="uid://bo0xuatjhheth" path="res://assets/backgrounds/Sunset/Fondo-base-cielo-atardecer-capa4.png" id="11_n7nnp"]
+[ext_resource type="Texture2D" uid="uid://bwnjo576h53dj" path="res://assets/backgrounds/Sunset/Fondo-base-cielo-atardecer-edificios1.png" id="12_i5vkm"]
+[ext_resource type="Texture2D" uid="uid://ctuvbpfxn36ue" path="res://assets/backgrounds/Sunset/Fondo-base-cielo-atardecer-edificios2.png" id="13_o4pdw"]
+[ext_resource type="Texture2D" uid="uid://cddkdfk2w801n" path="res://assets/backgrounds/Sunset/Fondo-base-cielo-atardecer-nubes.png" id="14_t1fvf"]
+[ext_resource type="Texture2D" uid="uid://qst38syq5rnp" path="res://assets/backgrounds/Night/Fondo-base-cielo-noche-capa1.png" id="15_dlodt"]
+[ext_resource type="Texture2D" uid="uid://veha1crcsdno" path="res://assets/backgrounds/Night/Fondo-base-cielo-noche-capa2.png" id="16_ris6y"]
+[ext_resource type="Texture2D" uid="uid://c2a485nb853u" path="res://assets/backgrounds/Night/Fondo-base-cielo-noche-capa3.png" id="17_idthr"]
+[ext_resource type="Texture2D" uid="uid://d1uqwisi8dlo1" path="res://assets/backgrounds/Night/Fondo-base-cielo-noche-edificios1.png" id="18_o0jkp"]
+[ext_resource type="Texture2D" uid="uid://dl4ilsh1m5qhs" path="res://assets/backgrounds/Night/Fondo-base-cielo-noche-edificios2.png" id="19_pxqgm"]
+[ext_resource type="Texture2D" uid="uid://ckbdgxfhsnvmy" path="res://assets/backgrounds/Night/Fondo-base-cielo-noche-nubes.png" id="20_12yln"]
+[ext_resource type="Texture2D" uid="uid://gq3q8jore52b" path="res://assets/backgrounds/Buildings/locales.png" id="21_l4fx3"]
+[ext_resource type="Texture2D" uid="uid://5d8dlyxatox6" path="res://assets/backgrounds/Buildings/local-alfajores.png" id="22_7gomr"]
+[ext_resource type="Texture2D" uid="uid://djsahh5hj20on" path="res://assets/backgrounds/Buildings/local-souvenirs.png" id="22_iqnoo"]
+[ext_resource type="Texture2D" uid="uid://bc5hayu2cckfo" path="res://assets/backgrounds/Buildings/locales2.png" id="23_f1p3g"]
+[ext_resource type="Texture2D" uid="uid://dvyeo8l6w167d" path="res://assets/backgrounds/Buildings/Havanna_local.png" id="24_65gfw"]
+[ext_resource type="Texture2D" uid="uid://b825d60anpufb" path="res://assets/backgrounds/Floor/floor.png" id="24_kb7p6"]
+[ext_resource type="Texture2D" uid="uid://d1prmx44k245m" path="res://assets/backgrounds/Buildings/sacoa.png" id="26_txdi4"]
+[ext_resource type="Texture2D" uid="uid://dgawtuiiwa8ri" path="res://assets/backgrounds/Buildings/local-churros.png" id="27_smfwu"]
+[ext_resource type="Texture2D" uid="uid://b66c1fy0jtkag" path="res://assets/backgrounds/Buildings/shopping-peatonal.png" id="28_mn7y0"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_laxn0"]
+texture = ExtResource("24_kb7p6")
+0:0/0 = 0
+0:0/0/modulate = Color(0.87, 0.6612, 0.6786, 1)
+0:1/0 = 0
+0:1/0/modulate = Color(0.87, 0.6612, 0.6786, 1)
+1:0/0 = 0
+1:0/0/modulate = Color(0.87, 0.6612, 0.6786, 1)
+1:1/0 = 0
+1:1/0/modulate = Color(0.87, 0.6612, 0.6786, 1)
+2:0/0 = 0
+2:0/0/modulate = Color(0.87, 0.6612, 0.6786, 1)
+2:1/0 = 0
+2:1/0/modulate = Color(0.87, 0.6612, 0.6786, 1)
+3:0/0 = 0
+3:0/0/modulate = Color(0.87, 0.6612, 0.6786, 1)
+3:1/0 = 0
+3:1/0/modulate = Color(0.87, 0.6612, 0.6786, 1)
+
+[sub_resource type="TileSet" id="TileSet_28wea"]
+sources/2 = SubResource("TileSetAtlasSource_laxn0")
+tile_proxies/coords_level = [[0, Vector2i(0, 0)], [2, Vector2i(0, 0)], [0, Vector2i(0, 1)], [2, Vector2i(0, 1)], [0, Vector2i(1, 0)], [2, Vector2i(1, 0)], [0, Vector2i(1, 1)], [2, Vector2i(1, 1)], [1, Vector2i(0, 0)], [2, Vector2i(2, 0)], [1, Vector2i(0, 1)], [2, Vector2i(2, 1)], [1, Vector2i(1, 0)], [2, Vector2i(3, 0)], [1, Vector2i(1, 1)], [2, Vector2i(3, 1)]]
 
 [node name="Background" type="Node2D"]
 
-[node name="Parallax2D" type="Parallax2D" parent="."]
+[node name="Day" type="Node2D" parent="."]
+z_index = -2
+
+[node name="1" type="Parallax2D" parent="Day"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(100, 0)
+repeat_times = 4
+
+[node name="Sprite1" type="Sprite2D" parent="Day/1"]
+texture = ExtResource("1_wot77")
+
+[node name="2" type="Parallax2D" parent="Day"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(80, 0)
+repeat_times = 4
+
+[node name="Sprite2" type="Sprite2D" parent="Day/2"]
+texture = ExtResource("2_lg6rj")
+
+[node name="3" type="Parallax2D" parent="Day"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(60, 0)
+repeat_times = 4
+
+[node name="Sprite3" type="Sprite2D" parent="Day/3"]
+texture = ExtResource("3_cx3py")
+
+[node name="4" type="Parallax2D" parent="Day"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(40, 0)
+repeat_times = 4
+
+[node name="Sprite4" type="Sprite2D" parent="Day/4"]
+texture = ExtResource("4_g84qe")
+
+[node name="5" type="Parallax2D" parent="Day"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(20, 0)
+repeat_times = 4
+
+[node name="Sprite5" type="Sprite2D" parent="Day/5"]
+texture = ExtResource("5_8o5vl")
+
+[node name="6" type="Parallax2D" parent="Day"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(5, 0)
+repeat_times = 4
+
+[node name="Sprite6" type="Sprite2D" parent="Day/6"]
+texture = ExtResource("6_prcor")
+
+[node name="7" type="Parallax2D" parent="Day"]
 repeat_size = Vector2(320, 0)
 repeat_times = 4
 
-[node name="Sprite2D" type="Sprite2D" parent="Parallax2D"]
-texture = ExtResource("1_6b66u")
+[node name="Sprite7" type="Sprite2D" parent="Day/7"]
+texture = ExtResource("7_8oesq")
 
-[node name="Parallax2D4" type="Parallax2D" parent="."]
+[node name="Sunset" type="Node2D" parent="."]
+modulate = Color(1, 1, 1, 0)
+z_index = -2
+
+[node name="1" type="Parallax2D" parent="Sunset"]
 repeat_size = Vector2(320, 0)
-autoscroll = Vector2(30, 0)
+autoscroll = Vector2(100, 0)
 repeat_times = 4
 
-[node name="Sprite2D" type="Sprite2D" parent="Parallax2D4"]
-texture = ExtResource("2_uxub1")
+[node name="Sprite1" type="Sprite2D" parent="Sunset/1"]
+texture = ExtResource("8_qwu2n")
 
-[node name="Parallax2D2" type="Parallax2D" parent="."]
+[node name="2" type="Parallax2D" parent="Sunset"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(80, 0)
+repeat_times = 4
+
+[node name="Sprite2" type="Sprite2D" parent="Sunset/2"]
+texture = ExtResource("9_uec4d")
+
+[node name="3" type="Parallax2D" parent="Sunset"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(60, 0)
+repeat_times = 4
+
+[node name="Sprite3" type="Sprite2D" parent="Sunset/3"]
+texture = ExtResource("10_at4v8")
+
+[node name="4" type="Parallax2D" parent="Sunset"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(40, 0)
+repeat_times = 4
+
+[node name="Sprite4" type="Sprite2D" parent="Sunset/4"]
+texture = ExtResource("11_n7nnp")
+
+[node name="5" type="Parallax2D" parent="Sunset"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(5, 0)
+repeat_times = 4
+
+[node name="Sprite5" type="Sprite2D" parent="Sunset/5"]
+texture = ExtResource("12_i5vkm")
+
+[node name="6" type="Parallax2D" parent="Sunset"]
 repeat_size = Vector2(320, 0)
 repeat_times = 4
 
-[node name="Sprite2D" type="Sprite2D" parent="Parallax2D2"]
-texture = ExtResource("3_bo45c")
+[node name="Sprite6" type="Sprite2D" parent="Sunset/6"]
+texture = ExtResource("13_o4pdw")
 
-[node name="Parallax2D3" type="Parallax2D" parent="."]
+[node name="7" type="Parallax2D" parent="Sunset"]
+scroll_offset = Vector2(0, 5)
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(40, 0)
+repeat_times = 4
+
+[node name="Sprite7" type="Sprite2D" parent="Sunset/7"]
+texture = ExtResource("14_t1fvf")
+
+[node name="Night" type="Node2D" parent="."]
+modulate = Color(1, 1, 1, 0)
+z_index = -2
+
+[node name="1" type="Parallax2D" parent="Night"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(100, 0)
+repeat_times = 4
+
+[node name="Sprite1" type="Sprite2D" parent="Night/1"]
+texture = ExtResource("15_dlodt")
+
+[node name="2" type="Parallax2D" parent="Night"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(80, 0)
+repeat_times = 4
+
+[node name="Sprite2" type="Sprite2D" parent="Night/2"]
+texture = ExtResource("16_ris6y")
+
+[node name="3" type="Parallax2D" parent="Night"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(60, 0)
+repeat_times = 4
+
+[node name="Sprite3" type="Sprite2D" parent="Night/3"]
+texture = ExtResource("17_idthr")
+
+[node name="4" type="Parallax2D" parent="Night"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(5, 0)
+repeat_times = 4
+
+[node name="Sprite4" type="Sprite2D" parent="Night/4"]
+texture = ExtResource("18_o0jkp")
+
+[node name="5" type="Parallax2D" parent="Night"]
 repeat_size = Vector2(320, 0)
 repeat_times = 4
 
-[node name="Sprite2D" type="Sprite2D" parent="Parallax2D3"]
-texture = ExtResource("4_vym3v")
+[node name="Sprite5" type="Sprite2D" parent="Night/5"]
+texture = ExtResource("19_pxqgm")
+
+[node name="6" type="Parallax2D" parent="Night"]
+repeat_size = Vector2(320, 0)
+autoscroll = Vector2(40, 0)
+repeat_times = 4
+
+[node name="Sprite6" type="Sprite2D" parent="Night/6"]
+texture = ExtResource("20_12yln")
+
+[node name="Buildings" type="Node2D" parent="."]
+
+[node name="e1" type="Parallax2D" parent="Buildings"]
+scroll_offset = Vector2(-3, 107)
+repeat_size = Vector2(827, 0)
+
+[node name="Sprite2" type="Sprite2D" parent="Buildings/e1"]
+texture = ExtResource("22_iqnoo")
+
+[node name="e2" type="Parallax2D" parent="Buildings"]
+z_index = -1
+scroll_offset = Vector2(-66, 107)
+repeat_size = Vector2(827, 0)
+
+[node name="Sprite2" type="Sprite2D" parent="Buildings/e2"]
+texture = ExtResource("22_7gomr")
+
+[node name="e3" type="Parallax2D" parent="Buildings"]
+scroll_offset = Vector2(-161, 106)
+repeat_size = Vector2(827, 0)
+
+[node name="Sprite1" type="Sprite2D" parent="Buildings/e3"]
+texture = ExtResource("23_f1p3g")
+
+[node name="e4" type="Parallax2D" parent="Buildings"]
+z_index = -1
+scroll_offset = Vector2(-257, 107)
+repeat_size = Vector2(827, 0)
+
+[node name="Sprite3" type="Sprite2D" parent="Buildings/e4"]
+texture = ExtResource("24_65gfw")
+
+[node name="e5" type="Parallax2D" parent="Buildings"]
+scroll_offset = Vector2(-384, 105)
+repeat_size = Vector2(827, 0)
+
+[node name="Sprite2" type="Sprite2D" parent="Buildings/e5"]
+texture = ExtResource("21_l4fx3")
+
+[node name="e6" type="Parallax2D" parent="Buildings"]
+z_index = -1
+scroll_offset = Vector2(-532, 104)
+repeat_size = Vector2(827, 0)
+
+[node name="Sprite2" type="Sprite2D" parent="Buildings/e6"]
+texture = ExtResource("26_txdi4")
+
+[node name="e7" type="Parallax2D" parent="Buildings"]
+scroll_offset = Vector2(-618, 107)
+repeat_size = Vector2(827, 0)
+
+[node name="Sprite2" type="Sprite2D" parent="Buildings/e7"]
+texture = ExtResource("27_smfwu")
+
+[node name="e8" type="Parallax2D" parent="Buildings"]
+z_index = -1
+scroll_offset = Vector2(-721, 98)
+repeat_size = Vector2(827, 0)
+
+[node name="Sprite2" type="Sprite2D" parent="Buildings/e8"]
+texture = ExtResource("28_mn7y0")
+
+[node name="Floor" type="Node2D" parent="."]
+
+[node name="Parallax2D" type="Parallax2D" parent="Floor"]
+repeat_size = Vector2(320, 0)
+repeat_times = 4
+
+[node name="TileMapLayer" type="TileMapLayer" parent="Floor/Parallax2D"]
+tile_map_data = PackedByteArray("AAD1/wkAAgADAAAAAAD1/woAAgADAAEAAAD1/wsAAgADAAAAAAD1/wwAAgADAAEAAAD1/w0AAgADAAAAAAD1/w4AAgADAAEAAAD1/w8AAgADAAAAAAD1/xAAAgADAAEAAAD1/xEAAgADAAAAAAD1/xIAAgADAAEAAAD1/xMAAgADAAAAAAD1/xQAAgADAAEAAAD1/xUAAgADAAAAAAD1/xYAAgADAAEAAAD2/wkAAgACAAAAAAD2/woAAgACAAEAAAD3/wkAAgADAAAAAAD3/woAAgADAAEAAAD2/wsAAgACAAAAAAD2/wwAAgACAAEAAAD3/wsAAgADAAAAAAD3/wwAAgADAAEAAAD2/w0AAgACAAAAAAD2/w4AAgACAAEAAAD3/w0AAgADAAAAAAD3/w4AAgADAAEAAAD2/w8AAgACAAAAAAD2/xAAAgACAAEAAAD3/w8AAgADAAAAAAD3/xAAAgADAAEAAAD2/xEAAgACAAAAAAD2/xIAAgACAAEAAAD3/xEAAgADAAAAAAD3/xIAAgADAAEAAAD2/xMAAgACAAAAAAD2/xQAAgACAAEAAAD3/xMAAgADAAAAAAD3/xQAAgADAAEAAAD2/xUAAgACAAAAAAD2/xYAAgACAAEAAAD3/xUAAgADAAAAAAD3/xYAAgADAAEAAAD4/wkAAgACAAAAAAD4/woAAgACAAEAAAD5/wkAAgADAAAAAAD5/woAAgADAAEAAAD4/wsAAgACAAAAAAD4/wwAAgACAAEAAAD5/wsAAgADAAAAAAD5/wwAAgADAAEAAAD4/w0AAgACAAAAAAD4/w4AAgACAAEAAAD5/w0AAgADAAAAAAD5/w4AAgADAAEAAAD4/w8AAgACAAAAAAD4/xAAAgACAAEAAAD5/w8AAgADAAAAAAD5/xAAAgADAAEAAAD4/xEAAgACAAAAAAD4/xIAAgACAAEAAAD5/xEAAgADAAAAAAD5/xIAAgADAAEAAAD4/xMAAgACAAAAAAD4/xQAAgACAAEAAAD5/xMAAgADAAAAAAD5/xQAAgADAAEAAAD4/xUAAgACAAAAAAD4/xYAAgACAAEAAAD5/xUAAgADAAAAAAD5/xYAAgADAAEAAAD6/wkAAgACAAAAAAD6/woAAgACAAEAAAD7/wkAAgADAAAAAAD7/woAAgADAAEAAAD6/wsAAgACAAAAAAD6/wwAAgACAAEAAAD7/wsAAgADAAAAAAD7/wwAAgADAAEAAAD6/w0AAgACAAAAAAD6/w4AAgACAAEAAAD7/w0AAgADAAAAAAD7/w4AAgADAAEAAAD6/w8AAgACAAAAAAD6/xAAAgACAAEAAAD7/w8AAgADAAAAAAD7/xAAAgADAAEAAAD6/xEAAgACAAAAAAD6/xIAAgACAAEAAAD7/xEAAgADAAAAAAD7/xIAAgADAAEAAAD6/xMAAgACAAAAAAD6/xQAAgACAAEAAAD7/xMAAgADAAAAAAD7/xQAAgADAAEAAAD6/xUAAgACAAAAAAD6/xYAAgACAAEAAAD7/xUAAgADAAAAAAD7/xYAAgADAAEAAAD8/wkAAgACAAAAAAD8/woAAgACAAEAAAD9/wkAAgADAAAAAAD9/woAAgADAAEAAAD8/wsAAgACAAAAAAD8/wwAAgACAAEAAAD9/wsAAgADAAAAAAD9/wwAAgADAAEAAAD8/w0AAgACAAAAAAD8/w4AAgACAAEAAAD9/w0AAgADAAAAAAD9/w4AAgADAAEAAAD8/w8AAgACAAAAAAD8/xAAAgACAAEAAAD9/w8AAgADAAAAAAD9/xAAAgADAAEAAAD8/xEAAgACAAAAAAD8/xIAAgACAAEAAAD9/xEAAgADAAAAAAD9/xIAAgADAAEAAAD8/xMAAgACAAAAAAD8/xQAAgACAAEAAAD9/xMAAgADAAAAAAD9/xQAAgADAAEAAAD8/xUAAgACAAAAAAD8/xYAAgACAAEAAAD9/xUAAgADAAAAAAD9/xYAAgADAAEAAAD+/wkAAgACAAAAAAD+/woAAgACAAEAAAD//wkAAgADAAAAAAD//woAAgADAAEAAAD+/wsAAgACAAAAAAD+/wwAAgACAAEAAAD//wsAAgADAAAAAAD//wwAAgADAAEAAAD+/w0AAgACAAAAAAD+/w4AAgACAAEAAAD//w0AAgADAAAAAAD//w4AAgADAAEAAAD+/w8AAgACAAAAAAD+/xAAAgACAAEAAAD//w8AAgADAAAAAAD//xAAAgADAAEAAAD+/xEAAgACAAAAAAD+/xIAAgACAAEAAAD//xEAAgADAAAAAAD//xIAAgADAAEAAAD+/xMAAgACAAAAAAD+/xQAAgACAAEAAAD//xMAAgADAAAAAAD//xQAAgADAAEAAAD+/xUAAgACAAAAAAD+/xYAAgACAAEAAAD//xUAAgADAAAAAAD//xYAAgADAAEAAAAAAAkAAgACAAAAAAAAAAoAAgACAAEAAAABAAkAAgADAAAAAAABAAoAAgADAAEAAAAAAAsAAgACAAAAAAAAAAwAAgACAAEAAAABAAsAAgADAAAAAAABAAwAAgADAAEAAAAAAA0AAgACAAAAAAAAAA4AAgACAAEAAAABAA0AAgADAAAAAAABAA4AAgADAAEAAAAAAA8AAgACAAAAAAAAABAAAgACAAEAAAABAA8AAgADAAAAAAABABAAAgADAAEAAAAAABEAAgACAAAAAAAAABIAAgACAAEAAAABABEAAgADAAAAAAABABIAAgADAAEAAAAAABMAAgACAAAAAAAAABQAAgACAAEAAAABABMAAgADAAAAAAABABQAAgADAAEAAAAAABUAAgACAAAAAAAAABYAAgACAAEAAAABABUAAgADAAAAAAABABYAAgADAAEAAAACAAkAAgACAAAAAAACAAoAAgACAAEAAAADAAkAAgADAAAAAAADAAoAAgADAAEAAAACAAsAAgACAAAAAAACAAwAAgACAAEAAAADAAsAAgADAAAAAAADAAwAAgADAAEAAAACAA0AAgACAAAAAAACAA4AAgACAAEAAAADAA0AAgADAAAAAAADAA4AAgADAAEAAAACAA8AAgACAAAAAAACABAAAgACAAEAAAADAA8AAgADAAAAAAADABAAAgADAAEAAAACABEAAgACAAAAAAACABIAAgACAAEAAAADABEAAgADAAAAAAADABIAAgADAAEAAAACABMAAgACAAAAAAACABQAAgACAAEAAAADABMAAgADAAAAAAADABQAAgADAAEAAAACABUAAgACAAAAAAACABYAAgACAAEAAAADABUAAgADAAAAAAADABYAAgADAAEAAAAEAAkAAgACAAAAAAAEAAoAAgACAAEAAAAFAAkAAgADAAAAAAAFAAoAAgADAAEAAAAEAAsAAgACAAAAAAAEAAwAAgACAAEAAAAFAAsAAgADAAAAAAAFAAwAAgADAAEAAAAEAA0AAgACAAAAAAAEAA4AAgACAAEAAAAFAA0AAgADAAAAAAAFAA4AAgADAAEAAAAEAA8AAgACAAAAAAAEABAAAgACAAEAAAAFAA8AAgADAAAAAAAFABAAAgADAAEAAAAEABEAAgACAAAAAAAEABIAAgACAAEAAAAFABEAAgADAAAAAAAFABIAAgADAAEAAAAEABMAAgACAAAAAAAEABQAAgACAAEAAAAFABMAAgADAAAAAAAFABQAAgADAAEAAAAEABUAAgACAAAAAAAEABYAAgACAAEAAAAFABUAAgADAAAAAAAFABYAAgADAAEAAAAGAAkAAgACAAAAAAAGAAoAAgACAAEAAAAHAAkAAgADAAAAAAAHAAoAAgADAAEAAAAGAAsAAgACAAAAAAAGAAwAAgACAAEAAAAHAAsAAgADAAAAAAAHAAwAAgADAAEAAAAGAA0AAgACAAAAAAAGAA4AAgACAAEAAAAHAA0AAgADAAAAAAAHAA4AAgADAAEAAAAGAA8AAgACAAAAAAAGABAAAgACAAEAAAAHAA8AAgADAAAAAAAHABAAAgADAAEAAAAGABEAAgACAAAAAAAGABIAAgACAAEAAAAHABEAAgADAAAAAAAHABIAAgADAAEAAAAGABMAAgACAAAAAAAGABQAAgACAAEAAAAHABMAAgADAAAAAAAHABQAAgADAAEAAAAGABUAAgACAAAAAAAGABYAAgACAAEAAAAHABUAAgADAAAAAAAHABYAAgADAAEAAAAGAAgAAgAAAAAAAAAHAAgAAgABAAAAAAAEAAgAAgAAAAAAAAAFAAgAAgABAAAAAAACAAgAAgAAAAAAAAADAAgAAgABAAAAAAAAAAgAAgAAAAAAAAABAAgAAgABAAAAAAD+/wgAAgAAAAAAAAD//wgAAgABAAAAAAD8/wgAAgAAAAAAAAD9/wgAAgABAAAAAAD6/wgAAgAAAAAAAAD7/wgAAgABAAAAAAD4/wgAAgAAAAAAAAD5/wgAAgABAAAAAAD2/wgAAgAAAAAAAAD3/wgAAgABAAAAAAD1/wgAAgABAAAAAADz/wgAAgABAAAAAADz/wkAAgADAAAAAADz/woAAgADAAEAAADz/wsAAgADAAAAAADz/wwAAgADAAEAAADz/w0AAgADAAAAAADz/w4AAgADAAEAAADz/w8AAgADAAAAAADz/xAAAgADAAEAAADz/xEAAgADAAAAAADz/xIAAgADAAEAAADz/xMAAgADAAAAAADz/xQAAgADAAEAAADz/xUAAgADAAAAAADz/xYAAgADAAEAAAD0/wgAAgAAAAAAAAD0/wkAAgACAAAAAAD0/woAAgACAAEAAAD0/wsAAgACAAAAAAD0/wwAAgACAAEAAAD0/w0AAgACAAAAAAD0/w4AAgACAAEAAAD0/w8AAgACAAAAAAD0/xAAAgACAAEAAAD0/xEAAgACAAAAAAD0/xIAAgACAAEAAAD0/xMAAgACAAAAAAD0/xQAAgACAAEAAAD0/xUAAgACAAAAAAD0/xYAAgACAAEAAAA=")
+tile_set = SubResource("TileSet_28wea")

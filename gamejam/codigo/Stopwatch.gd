@@ -1,15 +1,21 @@
 extends Node
-class_name Stopwatch
 
-@onready var main: Node2D = $".."
+@onready var main: Node2D = $"../../../"
 
-var time= 140
+var total_time=120
+var time= 120
 var stopped = true
+
+func _ready() -> void:
+	Music.stream = load("res://sounds/Peatonal Rush_2.mp3")
+	Music.play()
 
 func _process(delta: float) -> void:
 	if !stopped:
 		time -= delta
-	
+	if time<=115 :
+		_game_over()
+		
 func reset_timer():
 	time= 0.0
 
@@ -17,12 +23,18 @@ func time_to_string() -> String:
 	var msec = fmod(time, 1) * 1000
 	var sec= fmod(time, 60)
 	var min= time/60
-	var format_string= "%02d : %02d : %02d"
-	var actual_string= format_string % [min, sec, msec]
+	var format_string= "%02d : %02d"
+	var actual_string= format_string % [min, sec]
 	return actual_string
 
+func time_to_float() -> float:
+	return (time/total_time)*100
 
 func _on_timer_timeout() -> void:
-	main.game_started=true
+	main.game_started= true
 	stopped = false
 	return
+
+func _game_over():
+	main._game_over_menu()
+	

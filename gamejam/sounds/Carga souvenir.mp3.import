@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dsa6l8a8tjscm"
+path="res://.godot/imported/Carga souvenir.mp3-615a6f3f4e1798ffc5dc023857d29d98.mp3str"
+
+[deps]
+
+source_file="res://sounds/Carga souvenir.mp3"
+dest_files=["res://.godot/imported/Carga souvenir.mp3-615a6f3f4e1798ffc5dc023857d29d98.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

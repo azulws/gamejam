@@ -1,0 +1,44 @@
+[gd_scene load_steps=5 format=3 uid="uid://h5hk1qhyi6qu"]
+
+[ext_resource type="Texture2D" uid="uid://cbg6422wu5g6c" path="res://assets/menu/winMenu/menu-victoria-peatonalrush.png" id="1_0vquj"]
+[ext_resource type="Script" path="res://codigo/win.gd" id="1_q8ank"]
+[ext_resource type="Texture2D" uid="uid://cxpi1s2nfpr6m" path="res://assets/menu/gameOverMenu/boton-reiniciar.png" id="2_xkpv8"]
+[ext_resource type="Texture2D" uid="uid://md7db50017xf" path="res://assets/menu/gameOverMenu/boton-salir.png" id="3_3j66r"]
+
+[node name="win" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_q8ank")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(0.52, 0.52)
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer"]
+layout_mode = 2
+texture = ExtResource("1_0vquj")
+
+[node name="restart" type="TextureButton" parent="VBoxContainer/TextureRect"]
+layout_mode = 0
+offset_left = 121.154
+offset_top = 301.923
+offset_right = 307.154
+offset_bottom = 368.923
+texture_normal = ExtResource("2_xkpv8")
+
+[node name="quit" type="TextureButton" parent="VBoxContainer/TextureRect"]
+layout_mode = 0
+offset_left = 132.692
+offset_top = 371.154
+offset_right = 298.692
+offset_bottom = 438.154
+texture_normal = ExtResource("3_3j66r")
+
+[connection signal="pressed" from="VBoxContainer/TextureRect/restart" to="." method="_on_restart_pressed"]
+[connection signal="pressed" from="VBoxContainer/TextureRect/quit" to="." method="_on_quit_pressed"]
